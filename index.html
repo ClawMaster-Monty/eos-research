@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EOS Research — Long-form science at the intersection of longevity, fitness, and mindful living</title>
+  <meta name="description" content="Research briefs, deep dives, and synthesis on longevity, peptides, biomarkers, nutrition, and the science of human optimization. Citations, methodology, plain language.">
+  <meta property="og:title" content="EOS Research — Long-form science at the intersection of longevity, fitness, and mindful living">
+  <meta property="og:description" content="Research briefs, deep dives, and synthesis on longevity, peptides, biomarkers, nutrition, and the science of human optimization.">
+  <meta property="og:type" content="website">
+  <style>
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --border: #21262d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --accent: #58a6ff;
+      --accent-glow: rgba(88,166,255,0.15);
+      --green: #7ee787;
+      --purple: #d2a8ff;
+      --yellow: #ffdf5d;
+      --link: #79c0ff;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 5rem;
+    }
+
+    /* ── Header ─────────────────────── */
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .site-name {
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .site-tag {
+      display: block;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-top: 0.25rem;
+    }
+
+    .nav {
+      margin-top: 1rem;
+      display: flex;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+      font-size: 0.9rem;
+    }
+
+    .nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    .nav a:hover { color: var(--link); }
+
+    /* ── Hero ─────────────────────── */
+    .hero {
+      padding: 1rem 0 2.5rem;
+    }
+
+    .hero h1 {
+      font-size: 1.9rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.25;
+      margin-bottom: 0.75rem;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 60ch;
+    }
+
+    .hero .callout {
+      margin-top: 1.5rem;
+      padding: 0.9rem 1.1rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: 6px;
+      font-size: 0.92rem;
+      color: var(--text-muted);
+    }
+
+    .hero .callout strong { color: var(--text); }
+
+    /* ── Article list ─────────────────────── */
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      margin: 2.5rem 0 1rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .article-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .article-card {
+      padding: 1.25rem 1.4rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      transition: border-color 0.15s, transform 0.15s;
+    }
+
+    .article-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-1px);
+    }
+
+    .article-card a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .article-meta {
+      display: flex;
+      gap: 0.6rem;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .pill {
+      padding: 0.15rem 0.55rem;
+      border-radius: 999px;
+      background: var(--accent-glow);
+      color: var(--accent);
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      font-size: 0.7rem;
+    }
+
+    .article-card h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+      letter-spacing: -0.01em;
+    }
+
+    .article-card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .article-card .cite {
+      margin-top: 0.6rem;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    /* ── Footer ─────────────────────── */
+    footer {
+      margin-top: 4rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 0.88rem;
+    }
+
+    footer a { color: var(--link); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="/" class="site-name">🔬 EOS Research</a>
+      <span class="site-tag">Long-form science at the intersection of longevity, fitness, and mindful living</span>
+      <nav class="nav">
+        <a href="/">Latest</a>
+        <a href="#archive">Archive</a>
+        <a href="https://eoscommons.org" target="_blank" rel="noopener">EOS Commons ↗</a>
+        <a href="https://bsky.app/profile/eoscommons.bsky.social" target="_blank" rel="noopener">BlueSky ↗</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Research briefs, deep dives, and synthesis.</h1>
+      <p>Where the EOS Commons research pipeline lives in long form. Each piece here has a sibling in the Commons Discord — same work, two surfaces. The long version lives here with citations and methodology. The short version sparks conversation there.</p>
+      <div class="callout">
+        <strong>One work, two surfaces.</strong> A finding here becomes a discussion thread in EOS Commons. A question from the Commons becomes a research question here. The two feed each other.
+      </div>
+    </section>
+
+    <h2 id="archive">Latest research</h2>
+    <ul class="article-list">
+      <li class="article-card">
+        <a href="research/">
+          <div class="article-meta">
+            <span class="pill">Coming soon</span>
+            <span>First brief — week of July 14, 2026</span>
+          </div>
+          <h3>Research archive launching this week</h3>
+          <p>The first long-form research brief will land here once EOS Research goes live at clawmaster-monty.github.io/eos-research/. Expect deep dives on longevity biomarkers, peptide evidence, and nutritional interventions.</p>
+          <p class="cite">In the meantime, the EOS Commons community is discussing related topics in Discord and BlueSky.</p>
+        </a>
+      </li>
+    </ul>
+
+    <footer>
+      <p>
+        <strong>EOS Research</strong> — published by EOS Commons.
+        <a href="https://eoscommons.org" target="_blank" rel="noopener">Visit the community ↗</a>
+      </p>
+      <p style="margin-top: 0.5rem;">
+        Built with plain HTML, GitHub Pages, and no JavaScript frameworks. Citations matter more than cleverness.
+      </p>
+    </footer>
+  </div>
+</body>
+</html>

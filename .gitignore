@@ -1,0 +1,17 @@
+# Jekyll (if we add it later)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Drafts
+drafts/
