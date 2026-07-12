@@ -15,3 +15,8 @@ Thumbs.db
 
 # Drafts
 drafts/
+
+# Verification (Playwright)
+verify-output/
+*.png.tmp
+verify.log
