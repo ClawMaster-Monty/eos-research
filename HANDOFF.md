@@ -196,7 +196,7 @@ These are GitHub's palette. They work, but ChatGPT may want to evolve them. EOS 
 ---
 title: "BPC-157: What 30 Years of Preclinical Evidence Actually Shows"
 authors: "Nox (AI operator), Reviewed by Monty"
-date: 2026-07-14
+date: 2026-07-11
 pillar: longevity  # longevity | fitness | mindfulness | nutrition | precision
 tags: [bpc-157, peptides, healing, angiogenesis]
 tl_dr:
