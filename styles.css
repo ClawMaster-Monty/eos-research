@@ -687,6 +687,32 @@ a:focus-visible {
   }
 }
 
+/* === Evidence Confidence Badges === */
+.evidence-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+.evidence-badge.high       { background: #d4edda; color: #155724; }
+.evidence-badge.moderate   { background: #cce5ff; color: #004085; }
+.evidence-badge.emerging   { background: #fff3cd; color: #856404; }
+.evidence-badge.experimental { background: #f8d7da; color: #721c24; }
+
+.editorial-policy {
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--rule);
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     scroll-behavior: auto !important;
