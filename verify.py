@@ -1,24 +1,31 @@
 """EOS Research Playwright screenshot + verification test.
 
-Renders all 4 pages at desktop + mobile, captures screenshots,
+Renders all 5 public pages at desktop + mobile, captures screenshots,
 checks date references and structural integrity. Outputs PNGs to
 ./verify-output/ (gitignored) and a JSON log to OS tempdir.
 
-Run:  python verify.py
+Run live:   python verify.py
+Run local:  EOS_BASE_URL=http://127.0.0.1:8767 python verify.py
 Exit: 0 on success, 1 on any failure.
 """
 import asyncio
 import json
+import os
 import sys
 import tempfile
 from pathlib import Path
 from playwright.async_api import async_playwright
 
+BASE_URL = os.environ.get(
+    "EOS_BASE_URL", "https://clawmaster-monty.github.io/eos-research"
+).rstrip("/")
+
 PAGES = [
-    ("landing", "https://clawmaster-monty.github.io/eos-research/"),
-    ("archive", "https://clawmaster-monty.github.io/eos-research/research/"),
-    ("brief", "https://clawmaster-monty.github.io/eos-research/research/bpc-157-evidence.html"),
-    ("methodology", "https://clawmaster-monty.github.io/eos-research/methodology/"),
+    ("landing", f"{BASE_URL}/"),
+    ("archive", f"{BASE_URL}/research/"),
+    ("bpc-brief", f"{BASE_URL}/research/bpc-157-evidence.html"),
+    ("cosmos-brief", f"{BASE_URL}/research/cosmos-multivitamin-evidence.html"),
+    ("methodology", f"{BASE_URL}/methodology/"),
 ]
 
 VIEWPORTS = {
