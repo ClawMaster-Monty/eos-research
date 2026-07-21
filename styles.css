@@ -713,6 +713,39 @@ a:focus-visible {
   line-height: 1.5;
 }
 
+/* === Evidence Tables === */
+.table-wrap {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+.evidence-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.evidence-table th,
+.evidence-table td {
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid var(--rule);
+}
+.evidence-table thead th {
+  background: var(--paper-2);
+  font-weight: 600;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.evidence-table tbody tr:nth-child(even) { background: var(--paper); }
+.evidence-table tbody tr:nth-child(odd)  { background: var(--paper-2); }
+.evidence-table td:first-child { font-weight: 500; }
+.alignment-well       { color: #155724; font-weight: 600; }
+.alignment-mostly     { color: #004085; font-weight: 600; }
+.alignment-misleading { color: #856404; font-weight: 600; }
+.alignment-overclaim  { color: #721c24; font-weight: 600; }
+
 @media (prefers-reduced-motion: reduce) {
   * {
     scroll-behavior: auto !important;

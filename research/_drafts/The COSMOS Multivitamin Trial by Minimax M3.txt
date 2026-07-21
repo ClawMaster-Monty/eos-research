@@ -1,0 +1,364 @@
+
+# The COSMOS Multivitamin Trial: Design, Findings, and Conclusion–Data Alignment
+
+*A research packet prepared for EOS Research.*
+
+---
+
+## Bottom Line
+
+The COcoa Supplement and Multivitamin Outcomes Study (COSMOS) was the largest and most rigorous randomized trial of a daily multivitamin ever conducted in older adults. Both of its pre-specified primary endpoints failed. After a median 3.6 years of follow-up in 21,442 participants, neither the cocoa flavanol extract nor the Centrum Silver multivitamin (MVM) produced a statistically significant reduction in its designated primary outcome: total cardiovascular events for cocoa (HR 0.90, 95% CI 0.78–1.02, p=0.11) and total invasive cancer for MVM (HR 0.97, 95% CI 0.86–1.09, p=0.57) [1][2].
+
+The story the trial is now associated with — that "multivitamins slow cognitive aging" — comes from three pre-specified but ancillary cognitive substudies and a 2024 meta-analysis of those substudies. The combined signal on global cognition is statistically robust (mean difference 0.07 SD units, p=0.0009 across 5,000+ non-overlapping participants), but the absolute effect is small (about 0.07 standard deviations on a composite z-score), survives Bonferroni correction only because the meta-analysis was restricted to two co-primary outcomes, and corresponds to a calculated "2 years of cognitive aging" via a derived ratio, not a direct clinical measurement [3][4][5].
+
+The authors' published conclusions are mostly well-calibrated to the data. The gap is in the surrounding apparatus: press releases, news coverage, clinical commentaries, and a small expert-panel paper in Latin America that has begun recommending MVM for cognitive aging on the strength of COSMOS. Industry funding (Pfizer/GSK/Haleon for the Centrum Silver pills; Mars Edge for the cocoa extract) creates a structural incentive that compounds this gap. The trial's most defensible summary is that **COSMOS is null on its two primary endpoints, modestly positive on a small set of pre-specified secondary endpoints (cocoa on CVD death, MVM on lung cancer, MVM on cognitive test scores), and provides no evidence that multivitamins prevent cancer, cardiovascular disease, dementia, or death.**
+
+---
+
+## 1. Trial Design and Methods
+
+COSMOS (NCT02422745) was a randomized, double-blind, placebo-controlled, 2x2 factorial trial [1][2][6]. Participants were randomized between April 2016 and March 2018 and followed for a median of 3.6 years (IQR 3.2–4.2). The trial enrolled 21,442 US adults: 12,666 women aged ≥65 and 8,776 men aged ≥60, all free of recent myocardial infarction, stroke, or cancer (other than non-melanoma skin cancer) at baseline [1][2].
+
+The four arms were:
+- Active cocoa extract + active MVM
+- Active cocoa extract + MVM placebo
+- Active MVM + cocoa placebo
+- Both placebos
+
+The two interventions were tested independently in the factorial design, allowing within-trial isolation of each agent's effect on its own primary outcome.
+
+**Interventions**
+- *Cocoa extract*: 500 mg/day cocoa flavanols, including 80 mg (−)-epicatechin and 50 mg theobromine, supplied by Mars Edge (Mars Symbioscience at trial launch). Two capsules daily.
+- *Multivitamin*: Centrum Silver, supplied by Pfizer Consumer Healthcare (now part of Haleon, via GSK). One tablet daily.
+- *Placebos*: matched inert pills provided by the same suppliers.
+
+**Primary endpoints (pre-specified)**
+- *Cocoa intervention*: composite total cardiovascular events — MI, stroke, cardiovascular death, coronary revascularization, carotid artery disease, peripheral artery surgery, unstable angina requiring hospitalization.
+- *MVM intervention*: total invasive cancer, excluding non-melanoma skin cancer.
+
+The MVM primary endpoint of cancer, rather than cardiovascular disease, was deliberate: it was designed in part as a replication attempt of the Physicians' Health Study II (PHS II) finding of an 8% reduction in total cancer in male physicians taking Centrum Silver [7][8]. The original CVD primary composite was expanded mid-trial — with DSMB approval — to add unstable angina/ACS, carotid artery surgery, and peripheral artery surgery, because overall CVD event rates were lower than projected [1][6].
+
+**Recruitment and demographics**
+Participants were drawn predominantly from two pools: the Women's Health Initiative (WHI) and a Brigham and Women's Hospital (BWH) mail-based recruitment effort (the same pool that fed PHS II). The cohort is 89% non-Hispanic White in the cognitive substudies, college-educated, and relatively well-nourished — a population whose baseline micronutrient status is likely above average for older Americans [3][4][11]. This is consequential: a multivitamin effect in a replete population is mechanistically less plausible than in a deficient one.
+
+**Funding**
+- Mars Edge: investigator-initiated grant, infrastructure support, donation of cocoa extract and packaging.
+- Pfizer Consumer Healthcare (now Haleon): partial provision of study pills and packaging.
+- NIH: AG050657, AG071611, EY025623, HL157665.
+- WHI contracts from NHLBI.
+
+The papers uniformly state that "neither company had a role in the trial design or conduct, data collection, data analysis, or manuscript preparation or review" [1][2][6]. Both authors of the primary papers (Manson and Sesso) have long-standing financial relationships with both companies and with the broader supplement trade. This is addressed in detail in Section 7.
+
+---
+
+## 2. Primary Endpoints: Cancer, CVD, and Mortality
+
+The table below summarizes the trial's two pre-specified primary endpoints, both of which were null at conventional significance thresholds.
+
+| Intervention | Primary endpoint | Events (active vs placebo) | HR (95% CI) | p | Source |
+|---|---|---|---|---|---|
+| Cocoa extract | Total cardiovascular events | 410 vs 456 | 0.90 (0.78–1.02) | 0.11 | Sesso 2022 [1] |
+| MVM (Centrum Silver) | Total invasive cancer | 518 vs 535 | HR 0.97 (0.86–1.09) | 0.57 | Manson/Sesso 2022 [2] |
+
+For the MVM-cancer primary outcome, the annualized event rates were 1.37% (active) and 1.42% (placebo) — essentially identical [2]. For cocoa-CVD, the annualized event rates were 1.08% vs 1.20% — a difference that did not clear statistical significance despite the very large sample size [1].
+
+The MVM-cancer null is a notable replication failure. PHS II, the predecessor trial, found an 8% reduction in total cancer (HR 0.92, 95% CI 0.86–0.998, p=0.04) in 14,641 male physicians over a median 11.2 years [7][8]. COSMOS was designed in part to test whether that finding would hold up in a larger, more diverse, more contemporary cohort. It did not. The authors note the discrepancy, but offer no specific reconciliation beyond suggesting COSMOS may have been too short to detect a cancer effect [2][9].
+
+**Mortality**
+All-cause mortality was a secondary endpoint for both interventions. Neither reached significance. Cocoa: HR 0.89 (0.77–1.03). MVM: HR 0.93 (0.81–1.08) [1][2].
+
+---
+
+## 3. Secondary Endpoints: Lung Cancer, CVD Death, and Other Signals
+
+When a primary endpoint is null, the temptation is to retreat to secondary endpoints. COSMOS has several positive signals at the secondary level, all of which are now emphasized to varying degrees in subsequent papers and in the press. The table below lists the pre-specified secondary cardiovascular outcomes for the cocoa arm.
+
+| Endpoint | HR (95% CI) | p | Note |
+|---|---|---|---|
+| Cardiovascular death | 0.73 (0.54–0.98) | 0.04 | Pre-specified; only nominally significant [1] |
+| Myocardial infarction | 0.87 (0.66–1.16) | n.s. | |
+| Stroke | 0.91 (0.70–1.17) | n.s. | |
+| Coronary revascularization | 0.95 (0.77–1.17) | n.s. | |
+| All-cause mortality | 0.89 (0.77–1.03) | n.s. | |
+
+In a per-protocol analysis censoring at non-adherence, the primary composite of total CVD events became statistically significant (HR 0.85, 95% CI 0.72–0.99), and the major cardiovascular events composite (MI + stroke + CV death — a non-prespecified outcome) reached HR 0.84 (0.71–0.99) [1]. The cocoa authors describe these per-protocol and post-hoc composites as "supportive" rather than confirmatory, but they feature prominently in the press release language and in the paper's own discussion [1][10].
+
+The same structure applies on the MVM arm: 14 secondary cancer outcomes, plus cardiovascular and mortality endpoints. The table below lists them in full, with the lung-cancer signal in bold.
+
+| Outcome | HR (95% CI) | p | Note |
+|---|---|---|---|
+| Total invasive cancer (primary) | 0.97 (0.86–1.09) | 0.57 | NS [2] |
+| Breast cancer | 1.06 (0.79–1.42) | n.s. | |
+| Colorectal cancer | 1.30 (0.80–2.12) | n.s. | |
+| Prostate cancer | 0.82 (0.62–1.08) | n.s. | |
+| Melanoma | 0.86 (0.54–1.35) | n.s. | |
+| **Lung cancer** | **0.62 (0.42–0.92)** | **0.016** | **Pre-specified secondary; nominally significant** [2] |
+| Total CVD events | 0.98 (0.86–1.12) | n.s. | [2] |
+| All-cause mortality | 0.93 (0.81–1.08) | n.s. | |
+
+The lung cancer finding is a 38% relative reduction in a pre-specified secondary endpoint. It is the only cancer-specific positive signal in the trial. Two important caveats apply: (a) lung cancer was one of 14 secondary outcomes, with no reported correction for multiple comparisons across them; (b) the authors report a borderline interaction with smoking status (p-interaction = 0.06) and a non-significant trend toward benefit in ever-smokers but not never-smokers [2]. A prior meta-analysis of supplemental vitamin E actually found an increased lung cancer risk in current smokers, so the lung-cancer signal cannot be read as a settled safety profile for MVM in smokers [11].
+
+**Other MVM ancillary endpoints (all null)**
+- Clinical fractures: no effect of MVM or cocoa on hip, spine, wrist, or major osteoporotic fractures over 3.6 years [12].
+- Type 2 diabetes: no effect of cocoa extract on incident T2D (HR 1.03, 0.89–1.18) [13].
+- Atrial fibrillation: one analysis reported a possible cocoa-related differential, but AF was not a pre-specified endpoint and events were self-reported [14].
+
+**Cocoa — eye health (COSMOS-Eye, JAMA Ophthalmol 2025)**
+A pre-specified ancillary study of 21,442 participants found no overall effect of cocoa extract on age-related macular degeneration (HR 0.87, 0.71–1.08, p=0.21), though there was a possible early-treatment effect (HR 0.77, 0.59–1.01 in the first 2 years) that the authors flag for further study [15]. The multivitamin arm of COSMOS-Eye is reported separately.
+
+**MVM — metabolomics and biological aging (2024, 2026)**
+A 2024 metabolomics paper in n=399 reported nominal (not FDR-significant) increases in omega-3 and DHA, decreases in creatinine, and reductions in 16 metabolomic risk scores after 2 years of MVM, but every effect failed multiple-testing correction [16]. A 2026 *Nature Medicine* epigenetic-clocks analysis in n=958 reported slowing of 2 of 5 epigenetic clocks (PhenoAge and GrimAge) with MVM, with a combined effect of "about 4 months less biological aging" over 2 years — but 3 of the 5 clocks showed no effect, and no correction for testing 5 clocks was applied [17]. The same analysis showed no effect of cocoa on any clock, and a small adverse effect on one.
+
+---
+
+## 4. Cognitive Substudies: Mind, Web, Clinic, and the Pooled Meta-Analysis
+
+The post-2022 narrative of COSMOS has migrated to cognition. Three pre-specified ancillary cognitive studies and a 2024 meta-analysis are now the most-cited outputs of the trial. The table below summarizes the design of the three cognitive substudies.
+
+| Substudy | Year | n | Method | Duration | Population |
+|---|---|---|---|---|---|
+| COSMOS-Mind | 2022 (Alzheimer's & Dementia) | 2,262 | Telephone-based cognitive battery (TICSm, word list, story recall, oral trail-making, verbal fluency, number span) | 3 years | Subset of parent trial [3] |
+| COSMOS-Web | 2023 (AJCN) | 3,562 | Online ModRey word-recall test, ModBent, Flanker | 3 years | Subset of parent trial [4] |
+| COSMOS-Clinic | 2024 (AJCN) | 573 | In-person 11-test neuropsychological battery | 2 years | Boston-area subcohort [5] |
+| Pooled meta-analysis | 2024 (AJCN) | >5,000 non-overlapping | Random-effects meta-analysis across the 3 substudies | 2–3 years | [5] |
+
+**Key results (MVM vs placebo)**
+
+| Outcome | COSMOS-Mind | COSMOS-Web | COSMOS-Clinic | Meta-analysis |
+|---|---|---|---|---|
+| Global cognition | z=0.07 (0.02–0.12), p=0.007 [3] | (not measured) | 0.06 SU (−0.003–0.13), borderline [5] | 0.07 SU (0.03–0.11), p=0.0009 [5] |
+| Episodic memory | Improved (sig) [3] | ModRey +0.71 vs +0.44 words, p=0.025 at 1y [4] | 0.12 SU (0.002–0.23), p=0.046 [5] | 0.06 SU (0.03–0.10), p=0.0007 [5] |
+| Executive function/attention | Improved (sig) [3] | NS (Flanker) [4] | 0.04 SU (−0.04–0.11), NS [5] | (not pooled) |
+
+**The "2 years of cognitive aging" calculation**
+The authors compute the effect's clinical relevance by dividing the mean treatment difference by the cross-sectional age-cognition slope in the same sample. With ModRey, this yields an effect "equivalent to ~3.1 years of age-related memory change" [4]. With the global cognition composite across the meta-analysis, the equivalent is "2 years of cognitive aging" [5]. This is a derived translation, not a direct measurement of dementia incidence or cognitive decline slope; it depends on the cross-sectional slope and assumes it is a reasonable proxy for the longitudinal effect of aging.
+
+**Cocoa extract on cognition**
+COSMOS-Mind found no effect of cocoa on global cognition (z=0.03, 95% CI −0.02 to 0.08, p=0.28) [3]. COSMOS-Web's primary endpoint was also null for cocoa [4]. The cocoa intervention has effectively no cognitive story.
+
+**Subgroup of interest: history of cardiovascular disease**
+In COSMOS-Mind, the MVM effect on global cognition was numerically larger in participants with a history of CVD (z=0.14, 95% CI −0.02 to 0.31) than without (z=0.06, 95% CI 0.01 to 0.11), with a nominal p-interaction of 0.01 [3]. The authors and the press release treat this as a mechanistic clue: CVD patients may have lower baseline micronutrient status, and supplementation may be filling a real gap. This is plausible but the interaction is a subgroup signal, not a primary test, and the confidence interval for the CVD subgroup includes zero.
+
+---
+
+## 5. Effect Size and Clinical Meaning
+
+The cognitive effect size in COSMOS is small by conventional standards. A 0.07 SD difference on a composite is approximately Cohen's d = 0.07 — well below the 0.2 threshold typically considered a "small" effect. The COSMOS-Web ModRey result is a difference of about 0.27 words on a 20-item list at 1 year [4]. The lung cancer finding is a 38% relative reduction, but on an absolute scale — given ~107 lung cancer cases out of 21,442 participants over 3.6 years — the absolute risk difference is roughly 0.15 percentage points (a difference of ~15 cases per 10,000 person-years).
+
+For the secondary positive signals (CVD death with cocoa, lung cancer with MVM, cognitive composite with MVM), the trial was not powered for these outcomes in the way it was for the primary endpoints, the secondary endpoints were numerous, and the multiple-comparisons landscape is not fully corrected in the published reports. The authors do report Bonferroni correction for the two co-primary meta-analysis endpoints (global cognition and episodic memory), which both survive [5]. The per-substudy primary endpoints (ModRey, TICSm composite) were also corrected. The broader sweep of secondary and tertiary findings across the COSMOS publication family has not been subject to a unified multiple-testing correction.
+
+**Clinical translation**
+None of the COSMOS studies measured incident dementia. The authors' "2 years of cognitive aging" calculation is a derived quantity, not a measured clinical endpoint. Whether a 0.07 SD shift on a composite test battery translates to a meaningful difference in the rate of dementia diagnosis years later is unknown and was not tested. The trial also did not test whether the effect persists, attenuates, or grows beyond 3 years.
+
+**Per-protocol vs. ITT**
+A 2025 biomarker re-analysis of the COSMOS cocoa arm demonstrated that the apparent effect size is sensitive to analytical choices: per-protocol analyses and biomarker-defined adherence groups yield substantially larger effect estimates than ITT. In the biomarker-active group, total CVD events reached HR 0.65 (0.47–0.89) — but this is observational within the trial, and selection bias from adherence cannot be ruled out [18]. The ITT primary result (HR 0.90) is the result that should anchor the trial-level conclusion.
+
+**Population caveats**
+The 89% non-Hispanic White, college-educated, generally well-nourished cohort limits generalizability. The authors did not measure baseline serum micronutrient levels, so they cannot directly test whether the cognitive benefit is concentrated in those with measured deficiency. They did use a dietary-quality index (AHEI) but the critics note that this questionnaire-based measure is subject to recall bias and doesn't directly measure micronutrient status [19][20].
+
+---
+
+## 6. Methodological Concerns
+
+A coherent critique of the cognitive substudies — and the press around them — has emerged from clinicians, statisticians, and science journalists. The most important recurring concerns:
+
+**Multiple testing.** Across the three cognitive substudies, dozens of cognitive outcomes were tested, plus many subgroup analyses. The published p-values for the co-primary endpoints survive Bonferroni correction, but the broader cognitive literature is full of "significant" effects that don't replicate. The 2024 Vyas paper itself flags the meta-analysis as restricted to two pre-specified outcomes and notes that "the analyses of secondary outcomes and subgroups were considered hypothesis generating and were not adjusted for multiple comparisons" [5]. This is a tighter statistical regime than is sometimes implied in press coverage, but the temptation to over-interpret nominally significant secondary findings is real.
+
+**Practice effects.** Repeated cognitive testing in a telephone/online modality produces practice effects — placebo groups tend to improve over time, narrowing the difference between arms. The COSMOS cognitive substudies do adjust for baseline, and the treatment effect is computed as the difference in 2- or 3-year change. But the magnitude of practice effects across modalities is not identical, and the within-study heterogeneity (I² = 0% across substudies in the meta-analysis) [5] is partly a function of how the same construct was operationalized.
+
+**The "subgroup" CVD-history signal is a finding of mechanistic interest, not a clinical guideline.** The stronger effect in those with a history of CVD is a secondary observation from COSMOS-Mind [3], and as the authors and critics both note, it cannot be used to support a recommendation for routine MVM use in CVD patients without a dedicated trial. The same observation is then amplified in the press as "those most at risk benefit most," which is a defensible mechanistic story but is being asked to do too much work in clinical interpretation.
+
+**Conclusion-vs-claim inflation in press materials.** The press releases from Mass General Brigham, the quoted statements from the investigators, and the resulting news coverage consistently describe the cognitive findings in stronger language than the published abstract conclusions do. For example:
+- The MGH press release headline: "Third Major Study Finds Evidence that Daily Multivitamin Improves Memory and Slows Cognitive Aging" [21].
+- Vyas's quoted statement: "The meta-analysis of three separate cognition studies provides strong and consistent evidence that taking a daily multivitamin... helps prevent memory loss and slow down cognitive aging" [21].
+- The published conclusion text in Vyas 2024 is more reserved: "These findings within the COSMOS trial support the benefits of a daily MVM in preventing cognitive decline among older adults" [5].
+
+The transition from "these findings within the COSMOS trial support the benefits" to "helps prevent memory loss" is a meaningful stretch. The MGH press release also goes further than the paper by saying the multivitamin "could help prevent memory loss and slow cognitive aging among older adults" [21] — the trial did not measure incident dementia.
+
+**Industry framing in a 2025 expert consensus paper.** A 2025 Latin-American expert consensus paper recommends daily MVM use for cognitive healthy aging on the basis of COSMOS, citing the meta-analysis p-values directly and the "2 years of cognitive aging" calculation as a "substantial" benefit [22]. This recommendation is not warranted by the trial: the effect size is small, the population was not diverse, the dose is brand-specific, and the endpoint is not dementia incidence. The paper is a useful case study in how a trial's signal can be amplified downstream by a network of interested parties (the expert panel declares no industry funding, but the broader supplement industry ecosystem provides the context).
+
+---
+
+## 7. Industry Funding and Disclosed Interests
+
+The financial structure of COSMOS is the most-cited and the most consequential feature of the trial's interpretive context.
+
+**The two industry partners and their products**
+- *Mars Edge* (formerly Mars Symbioscience), a segment of Mars Inc dedicated to nutrition research, supplied the cocoa extract and partial infrastructure. Mars Inc is a major chocolate producer. The cocoa flavanol extract tested in COSMOS is a proprietary Mars product.
+- *Pfizer Consumer Healthcare* (now Haleon, via GSK) supplied Centrum Silver and partial packaging. Centrum Silver is the most-recognized US multivitamin brand targeted at older adults. Pfizer/GSK/Haleon has direct commercial interest in any positive Centrum finding.
+
+**Author disclosures**
+From the Sesso 2022 cocoa paper [1] and the Vyas 2024 meta-analysis [5]:
+- Howard Sesso: investigator-initiated grants from Mars Edge, Pfizer/GSK/Haleon, Pure Encapsulations, and Pfizer Inc; honoraria and/or travel from the Council for Responsible Nutrition, BASF, NIH, and the American Society of Nutrition.
+- JoAnn Manson: investigator-initiated grants from Mars Edge and Pfizer Consumer Healthcare.
+
+Both are co-PIs of COSMOS. The cocoa extract and the multivitamin under test are products of companies that fund their research program. The "industry had no role" language is the standard contractual statement, and there is no public evidence of direct manipulation. But structural incentives are not eliminated by clauses.
+
+**Industry-funded null findings in the supplement literature are rare**
+The COSMOS primary results for both MVM-cancer and cocoa-CVD were null, which is unusual for industry-funded supplement trials. Marion Nestle, in a 2022 *Food Politics* commentary on the cocoa-CVD paper, noted that "Pfizer must have hoped to find benefits for Centrum. This is a rare industry-supported study that showed no benefits" [23]. The rarity is itself a reason for caution: when the same investigators, with the same financial relationships, run a trial with a null primary endpoint and a positive ancillary signal, the secondary signal will be the product that gets marketed. The post-2022 record — three cognitive substudies, a meta-analysis, a press release campaign, and downstream clinical recommendations — is consistent with exactly that pattern.
+
+**Mars Edge has been an aggressive publisher of cocoa-flavanol health claims**
+Mars Symbioscience (now Mars Edge) has a long publication record on cocoa flavanols and cardiovascular health. The COSMOS-Mind result of no cognitive effect of cocoa is conspicuously underplayed in the trial's broader press footprint, while the MVM cognitive findings receive the lion's share of coverage. The 2024 epigenetic-clocks paper reports cocoa did not improve any of 5 aging clocks and worsened one of them [17]; this is barely mentioned in the broader coverage of the multivitamin finding.
+
+---
+
+## 8. Critical Reception
+
+**USPSTF 2022**
+The US Preventive Services Task Force reviewed COSMOS as part of its 2022 update on vitamin and mineral supplementation. The recommendation: "the evidence is insufficient to determine the balance of benefits and harms of supplementation with multivitamins for the prevention of cardiovascular disease or cancer" [24]. The Task Force noted that COSMOS's 3.6-year median follow-up "may be too short for assessing cardiovascular disease and cancer outcomes" [24]. The pooled USPSTF analysis found a small cancer benefit (OR 0.93, 0.87–0.99) across 4 RCTs including COSMOS, but no mortality benefit and no CVD benefit [24].
+
+**Jia, Cameron, Linder editorial in JAMA (2022)**
+The accompanying editorial in the same JAMA issue was blunt: "Beyond wasted money, the focus on supplements might be viewed as a potentially harmful distraction. Rather than focusing money, time, and attention on supplements, it would be better to emphasize lower-risk, higher-benefit activities" [25]. Linder, the lead author, told reporters that "the task force is not saying 'don't take multivitamins,' but there's this idea that if these were really good for you, we'd know by now" [26].
+
+**Trade-industry pushback**
+The dietary supplement industry trade group (CHPA) and the Council for Responsible Nutrition publicly criticized the USPSTF report, citing the COSMOS cognitive findings as evidence of benefit [27]. This is a reliable signal that the cognitive ancillary findings are the most useful for industry communication: the primary nulls on cancer and CVD offer no commercial leverage, while the cognitive signal does.
+
+**Independent science journalists**
+- *MedPage Today / MD Edge* (Jan 2024): A skeptical clinician commentary titled "Multivitamins and dementia: Untangling the COSMOS study web" walked through the design and argued that "the main COSMOS study was negative" and that the cognitive findings should be classified as "secondary hypothesis-generating outcomes" — a valid framing the trial's own authors use in some places but abandon in the press [28].
+- *American Council on Science and Health* (Feb 2024): A critical review noted that the 0.07 SD effect size is small, that blood micronutrient levels were not measured, and that the headline framing of "delaying cognitive aging" was driven by press materials rather than the published abstract [19].
+- *F. Perry Wilson* (YouTube, 2026): A clinician-researcher commentary on the epigenetic-clocks paper noted that 2 of 5 clocks were significant, the magnitude of effect was 0.08 SD, no correction for testing 5 clocks was applied, and the within-trial observational analysis used post-randomization exclusion of unhealthy participants, which "destroys the randomization" [29].
+- *Substack (GidMK, 2026)*: A critical review of the epigenetic-clocks paper argued that the headline "4 months less aging" relies on an arbitrary selection of which 2 of 5 clocks to highlight, and that cocoa extract was associated with slightly increased biological aging on one clock [30].
+- *Sighed Effects* (multivitamin review): "The honest summary of the research is this: in generally well-nourished adults taking a daily multivitamin for disease prevention, the trial evidence shows little to no effect on mortality, cardiovascular disease, or overall cancer incidence... with the possible exception of a small reduction in total cancer risk in older men" [31].
+- *Center for Science in the Public Interest* (CSPI): COSMOS's failure to replicate PHS II's cancer finding is noted; the article is even-handed on what the trial did and didn't show [32].
+
+---
+
+## 9. Comparison With Predecessor Trials: PHS II, SU.VI.MAX, and COSMOS
+
+The table below places COSMOS in the context of the two large predecessor multivitamin trials, both of which used a similar design and Centrum Silver or a comparable MVM.
+
+| Trial | Year | n | Population | Duration | MVM product | Primary finding |
+|---|---|---|---|---|---|---|
+| PHS II (Gaziano et al., JAMA 2012) | 2012 | 14,641 | Male physicians ≥50 | 11.2 y median | Centrum Silver | Total cancer HR 0.92 (0.86–0.998), p=0.04 [7][8] |
+| SU.VI.MAX | 2004–2010 | 13,017 | French adults 35–60 | 7.5 y initial + 5 y post | 5-component MVM | Cancer: NS overall; subgroup benefit in men (RR 0.69, 0.53–0.91) [33] |
+| COSMOS cancer arm | 2022 | 21,442 | US women ≥65, men ≥60 | 3.6 y median | Centrum Silver | Total cancer HR 0.97 (0.86–1.09), p=0.57 [2] |
+
+COSMOS did not replicate PHS II's cancer finding. Possible reasons advanced by the authors: the COSMOS cohort included women (PHS II was men only), the cohort was more recent and had higher background use of statins and other preventive therapies, and the trial may have been too short (3.6 y vs 11.2 y) to detect a cancer effect [2][9]. The USPSTF pooled analysis — which puts PHS II, SU.VI.MAX, and COSMOS together — yields OR 0.93 (0.87–0.99) for total cancer, with an absolute risk difference of −0.2% to −1.2% in adequately powered trials [24]. The pooled signal exists but is small.
+
+For cognition, COSMOS is the largest trial, and the PHS II cognitive sub-study (also Centrum Silver in male physicians) was null on the same time scale [5]. The two trials' cognitive results are not directly comparable because of the different testing modalities and populations, but it is notable that PHS II did not detect a cognitive benefit while COSOS-Web, COSMOS-Mind, and COSMOS-Clinic did.
+
+---
+
+## 10. The Conclusion–Data Audit
+
+The table below maps the trial's most prominent claims to the data that supports them, and rates the alignment.
+
+| Claim | Data supporting it | Data complicating it | Alignment rating |
+|---|---|---|---|
+| "Cocoa flavanols did not significantly reduce total cardiovascular events" | Primary endpoint HR 0.90, p=0.11 [1] | Per-protocol and post-hoc composites became significant; CVD death significant in ITT [1] | **Well-aligned.** The published conclusion matches the primary result. |
+| "Cocoa flavanols reduced CVD death by 27%" | HR 0.73 (0.54–0.98), pre-specified secondary [1] | One of many secondary endpoints; not corrected for multiple comparisons | **Mostly aligned.** Authors describe this as "warrant[ing] cautious interpretation" [1]. |
+| "Daily MVM did not significantly reduce total cancer" | Primary endpoint HR 0.97, p=0.57 [2] | None | **Perfectly aligned.** |
+| "Daily MVM significantly reduced lung cancer" | HR 0.62, pre-specified secondary [2] | One of 14 secondary cancer outcomes; borderline smoking interaction | **Mostly aligned.** Author language is appropriately cautious. |
+| "MVM supplementation benefits both global cognition and episodic memory" | Vyas 2024 meta-analysis p=0.0009 (global) and p=0.0007 (memory) across >5,000 participants [5] | Effect size 0.07 SU is small; not measured against dementia incidence; population was 89% white and well-nourished; no baseline micronutrient measurement | **Aligned within the paper's stated scope.** Less aligned with downstream press claims. |
+| "The effect is equivalent to 2 years of cognitive aging" | Derived ratio of treatment difference to cross-sectional age-cognition slope [5] | The cross-sectional slope is not necessarily the longitudinal slope; the equivalence is a calculation, not a measurement | **Misleading framing.** A derived statistic presented as a clinical fact. |
+| "Daily multivitamins help prevent memory loss and slow cognitive aging" (press claim) | Vyas 2024 cognitive substudy results [5] | Trial did not measure incident memory loss or dementia; primary cancer and CVD endpoints were null | **Over-claim.** The trial cannot support a clinical prevention claim. |
+| "MVMs can be recommended as a complementary strategy to bridge nutritional gaps" (2025 Latin-American expert panel) | COSMOS cognitive findings [22] | Population was not nutrient-deficient; effect size small; no dementia endpoint; brand-specific; not replicated in PHS II cognition | **Over-recommendation.** The cited evidence does not support a population-level recommendation. |
+| "Multivitamins should be considered for inclusion in clinical guidelines for cognitive decline prevention" (Vyas 2024) | Same as above [5] | Same as above; Vyas paper calls this "consideration" but downstream citations translate it to recommendation | **Borderline.** The paper's call for guideline consideration is a step beyond the data. |
+
+**Where the conclusions match the data**
+- Both primary endpoints were negative, and the published conclusions say so.
+- The cocoa-CVD death secondary signal is appropriately caveated in the paper.
+- The MVM-lung cancer signal is reported with appropriate uncertainty.
+- The cognitive findings are reported as "support" for benefit, with the meta-analysis p-values surviving multiple-comparison correction.
+
+**Where the conclusions drift from the data**
+- The "2 years of cognitive aging" framing is a derived ratio, not a measured clinical outcome. The clinical translation is reasonable but is not the same kind of evidence as a measured slowing of dementia incidence.
+- The press apparatus — and the way the trial is cited in industry-friendly downstream materials — consistently presents the cognitive findings as if they demonstrated prevention of memory loss or cognitive decline at the population level, which the trial did not test.
+- The 2024 Vyas paper's call for "consideration by clinical guidelines committees" is reasonable within the paper's scope but is repeatedly cited as a positive recommendation in subsequent expert and consumer literature.
+- The 2025 Latin-American expert consensus's recommendation for MVM in cognitive healthy aging is not supported by the underlying trial evidence, even on a generous reading.
+
+---
+
+## 11. Overall Assessment
+
+**What COSMOS actually showed**
+1. A daily Centrum Silver multivitamin does not reduce the incidence of total invasive cancer, total cardiovascular events, or all-cause mortality in older adults over 3.6 years.
+2. A daily cocoa flavanol extract does not reduce total cardiovascular events in older adults over 3.6 years, but does reduce cardiovascular death by 27% in a pre-specified secondary analysis.
+3. A daily Centrum Silver multivitamin produces a small but statistically significant improvement on a composite cognitive test score in a meta-analysis of three pre-specified cognitive substudies. The effect is 0.07 standard deviations on the global cognition composite and is equivalent by a derived calculation to roughly 2 years of age-related cognitive change. The trial did not measure dementia incidence, did not measure blood micronutrient status at baseline, and did not include a representative population.
+4. The trial does not support the use of multivitamins for cancer prevention, cardiovascular prevention, mortality reduction, or dementia prevention.
+
+**What COSMOS did not show**
+- That multivitamins prevent cancer (PHS II's finding did not replicate).
+- That multivitamins prevent cardiovascular disease.
+- That multivitamins reduce mortality.
+- That multivitamins prevent dementia or cognitive decline in any clinically meaningful sense.
+- That the cognitive test-score effect translates to a real-world reduction in memory loss.
+
+**The bottom line for EOS Research**
+The COSMOS trial is a high-quality RCT that is negative on both of its primary endpoints, modestly positive on a small set of pre-specified secondary endpoints, and modestly positive on a set of pre-specified cognitive ancillary endpoints whose effect size is small, whose mechanism is unclear, and whose clinical translation is contested. The trial's authors have, in the original papers, mostly been careful about how they describe the findings. The press apparatus, downstream expert recommendations, and the structural incentives of the industry funders have been less careful, and the cognitive findings have acquired a narrative weight that exceeds what the trial's data support.
+
+The most defensible summary statement of the trial, drawn directly from the published conclusions, is: *"A daily multivitamin did not reduce the incidence of total cancer or cardiovascular events in this trial, but a daily multivitamin improved performance on a battery of cognitive tests by a small amount, equivalent by calculation to about 2 years of cognitive aging."* The most common restatement in the press — *"multivitamins prevent cognitive decline"* — is not what the trial showed.
+
+---
+
+## References
+
+[1] Sesso HD, Manson JE, Aragaki AK, et al. "Effect of cocoa flavanol supplementation for the prevention of cardiovascular disease events: the COSMOS randomized clinical trial." *American Journal of Clinical Nutrition* 2022;115(6):1490–1500. https://pmc.ncbi.nlm.nih.gov/articles/PMC9170467/
+
+[2] Manson JE, Sesso HD, Aragaki AK, et al. "Multivitamins in the prevention of cancer and cardiovascular disease: the COSMOS randomized clinical trial." *American Journal of Clinical Nutrition* 2022;115(6):1501–1510. https://pmc.ncbi.nlm.nih.gov/articles/PMC9170475/
+
+[3] Baker LD, Manson JE, Rapp SR, et al. "Effects of cocoa extract and a multivitamin on cognitive function: a randomized clinical trial (COSMOS-Mind)." *Alzheimer's & Dementia* 2023;19(4):1308–1319. https://pubmed.ncbi.nlm.nih.gov/36102337/
+
+[4] Yeung LK, Alschuler DM, Wall M, et al. "Multivitamin Supplementation Improves Memory in Older Adults: A Randomized Clinical Trial (COSMOS-Web)." *American Journal of Clinical Nutrition* 2023;118(1):273–282. https://www.sciencedirect.com/science/article/pii/S0002916523489046
+
+[5] Vyas CM, Manson JE, Sesso HD, et al. "Effect of multivitamin-mineral supplementation versus placebo on cognitive function: results from the clinic subcohort of COSMOS and meta-analysis of 3 cognitive studies within COSMOS." *American Journal of Clinical Nutrition* 2024. https://www.sciencedirect.com/science/article/pii/S0002916523663427
+
+[6] ClinicalTrials.gov. "COcoa Supplement and Multivitamin Outcomes Study (COSMOS)." NCT02422745. https://clinicaltrials.gov/study/NCT02422745
+
+[7] Gaziano JM, Sesso HD, Christen WG, et al. "Multivitamins in the Prevention of Cancer in Men: The Physicians' Health Study II Randomized Controlled Trial." *JAMA* 2012;308(18):1871–1880. https://pmc.ncbi.nlm.nih.gov/articles/PMC3517179/
+
+[8] Sesso HD, Christen WG, Bubes V, et al. "Multivitamins in the prevention of cardiovascular disease in men: the Physicians' Health Study II randomized controlled trial." *JAMA* 2012;308(17):1751–1760. https://pubmed.ncbi.nlm.nih.gov/23117760/
+
+[9] Sesso HD, Rist PM, Aragaki AK, et al. "Design and baseline characteristics of participants in the COcoa Supplement and Multivitamin Outcomes Study (COSMOS)." *Contemporary Clinical Trials* 2022. https://www.sciencedirect.com/science/article/abs/pii/S1551714422000544
+
+[10] ScienceDaily press release. "Trial testing cocoa flavanol supplement shows promise for reducing cardiovascular disease." March 2022. https://www.sciencedaily.com/releases/2022/03/220316173304.htm
+
+[11] Slatore CG, Littman AJ, Au DH, et al. "Long-term use of supplemental multivitamins, vitamin C, vitamin E, and folate does not reduce the risk of lung cancer." *American Journal of Respiratory and Critical Care Medicine* 2008. https://pmc.ncbi.nlm.nih.gov/articles/PMC2258445/
+
+[12] Cosman F, et al. "Effects of cocoa extract supplementation and multivitamin on fracture risk in the COSMOS trial." *Journal of Bone and Mineral Research* 2025;40(5):591. https://academic.oup.com/jbmr/article/40/5/591/8020503
+
+[13] An P, et al. "Effect of cocoa extract supplementation on incident type 2 diabetes in the COSMOS trial." https://escholarship.org/content/qt36j088s1/qt36j088s1.pdf
+
+[14] Albert CM, et al. "Cocoa flavanol supplementation and incident atrial fibrillation in the COSMOS trial." https://pmc.ncbi.nlm.nih.gov/articles/PMC12600293/
+
+[15] Christen WG, Rist PM, Moorthy MV, et al. "Cocoa Flavanol Supplementation and Risk of Age-Related Macular Degeneration: An Ancillary Study of the COSMOS Randomized Clinical Trial." *JAMA Ophthalmology* 2025;143(5):429–437. https://pubmed.ncbi.nlm.nih.gov/40146119/
+
+[16] COSMOS Metabolomics Working Group. "2-year findings from the COSMOS randomized clinical trial: metabolomics." 2024. https://pubmed.ncbi.nlm.nih.gov/41910928/
+
+[17] Li S, et al. "Effect of Daily Multivitamin-Mineral and Cocoa Extract Supplementation on Epigenetic Clocks of Biological Aging: 2-Year Findings from the COSMOS Randomized Clinical Trial." *Nature Medicine* 2026. DOI: 10.1038/s41591-026-04239-3. https://www.massgeneralbrigham.org/en/about/newsroom/press-releases/daily-multivitamin-use-may-slow-aging
+
+[18] The overlooked impact of background diet and adherence in nutrition trials (biomarker re-analysis of COSMOS cocoa arm). https://pmc.ncbi.nlm.nih.gov/articles/PMC11888514/
+
+[19] American Council on Science and Health. "Decoding the Mystery: Multivitamins and the Aging Brain." February 2024. https://www.acsh.org/news/2024/02/28/decoding-mystery-multivitamins-and-aging-brain-17680
+
+[20] Husseini A, et al. "Role of Micronutrient Supplementation in Promoting Cognitive Health in Older Adults: A Latin American Expert Consensus." 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12348371/
+
+[21] Mass General Brigham press release. "Third Major Study Finds Evidence that Daily Multivitamin Improves Memory and Slows Cognitive Aging." January 2024. https://www.massgeneralbrigham.org/en/about/newsroom/press-releases/multivitamins-improve-memory-and-slow-cognitive-aging
+
+[22] 2025 Latin-American Expert Consensus on micronutrient supplementation and cognitive health. https://pmc.ncbi.nlm.nih.gov/articles/PMC12348371/
+
+[23] Nestle M. "Industry-funded trial with surprising results." *Food Politics* (blog), March 2022. https://www.foodpolitics.com/2022/03/industry-funded-trial-with-surprising-results/
+
+[24] US Preventive Services Task Force. "Vitamin and Mineral Supplements for the Primary Prevention of Cardiovascular Disease and Cancer: USPSTF Recommendation Statement." *JAMA* 2022;327(23):2326–2333. https://jamanetwork.com/journals/jama/fullarticle/2793472
+
+[25] Jia J, Cameron NA, Linder JA. "Multivitamins and Supplements — Benign Prevention or Potentially Harmful Distraction?" *JAMA* 2022;327(23):2294–2295. https://jamanetwork.com/journals/jama/fullarticle/2793472 (editorial companion to USPSTF report).
+
+[26] ScienceDaily. "Vitamins, supplements are a 'waste of money' for most Americans." June 2022. https://www.sciencedaily.com/releases/2022/06/220621114707.htm
+
+[27] NutraIngredients. "USPSTF's multivitamin report: 'Akin to studying a hammer and concluding it is unsuitable for turning a screw'." June 2022. https://www.nutraingredients.com/Article/2022/06/23/uspstf-s-multivitamin-report-akin-to-studying-a-hammer-and-concluding-it-is-unsuitable-for-turning-a-screw/
+
+[28] MDedge / Clinical Psychiatry News. "Multivitamins and dementia: Untangling the COSMOS study web." January 2024. https://www.mdedge.com/familymedicine/article/265695/alzheimers-cognition/multivitamins-and-dementia-untangling-cosmos
+
+[29] Wilson FP. "Multivitamins Slow Aging? Don't Believe It." *YouTube* commentary on the COSMOS epigenetic-clocks paper, 2026. https://www.youtube.com/watch?v=BV_h_qLR8kk
+
+[30] GidMK. "Multivitamins Don't Slow Biological Aging." *Substack* commentary, 2026. https://gidmk.substack.com/p/multivitamins-dont-slow-biological
+
+[31] Sighed Effects. "Multivitamins: What The Evidence Shows." https://www.sighedeffects.com/articles/supplements/multivitamins/
+
+[32] Center for Science in the Public Interest. "Do multivitamins lower the risk of cancer?" https://www.cspinet.org/article/do-multivitamins-lower-risk-cancer
+
+[33] Hercberg S, et al. "Antioxidant supplementation increases the risk of skin cancers in women but lowers the risk of skin cancers in men." *Journal of Nutrition* 2007; and subsequent SU.VI.MAX publications.
+
+---
+
+*Prepared for EOS Research. All factual claims are traceable to the cited sources. Effect sizes, confidence intervals, and p-values are quoted directly from the published papers or their press materials. The author has no financial relationships with Pfizer/Haleon, Mars Edge, or any other party named in this document.*

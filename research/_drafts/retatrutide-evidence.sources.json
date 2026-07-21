@@ -1,0 +1,48 @@
+{
+  "brief": "Retatrutide: The Trial Results Are Real. The Online Certainty Is Not.",
+  "status": "draft-source-registry",
+  "verified_on": "2026-07-19",
+  "method": "DOI/PMID metadata and primary PubMed abstracts reviewed directly; publication requires a fresh official regulatory-status check.",
+  "sources": [
+    {
+      "citation": 1,
+      "reference_id": "ref1",
+      "doi": "10.1056/NEJMoa2301972",
+      "pmid": "37366315",
+      "evidence_level": "Phase 2 randomized, double-blind, placebo-controlled adult obesity trial",
+      "claim_ids": ["phase2-obesity"],
+      "claims": ["338 adults", "48-week body-weight changes", "gastrointestinal adverse events", "heart-rate time course"],
+      "verification_note": "Primary PubMed abstract reviewed 2026-07-19. The primary endpoint was week 24; week-48 weight change was a secondary endpoint. Do not infer long-term maintenance or phase-3 obesity outcomes."
+    },
+    {
+      "citation": 2,
+      "reference_id": "ref2",
+      "doi": "10.1016/S0140-6736(23)01053-X",
+      "pmid": "37385280",
+      "evidence_level": "Phase 2 randomized, double-blind, placebo- and active-controlled adult type-2-diabetes trial",
+      "claim_ids": ["phase2-t2d"],
+      "claims": ["HbA1c change at 24 weeks", "body-weight change at 36 weeks", "reported GI events", "no severe hypoglycaemia or deaths"],
+      "verification_note": "Primary PubMed abstract reviewed 2026-07-19. Applies to selected adults with type 2 diabetes, not to unapproved use, adolescents, or social-media dosing practices."
+    },
+    {
+      "citation": 3,
+      "reference_id": "ref3",
+      "doi": "10.1016/S0140-6736(26)00967-0",
+      "pmid": "42250575",
+      "evidence_level": "Phase 3 randomized, double-blind, placebo-controlled adult type-2-diabetes monotherapy trial",
+      "claim_ids": ["phase3-t2d"],
+      "claims": ["537 randomized adults", "40-week HbA1c and body-weight changes", "GI-event profile", "adverse-event discontinuations"],
+      "verification_note": "Primary PubMed abstract reviewed 2026-07-19. This is a diabetes-monotherapy trial; it does not establish phase-3 obesity outcomes or long-term cardiovascular benefit."
+    },
+    {
+      "citation": 4,
+      "reference_id": "ref4",
+      "doi": "10.1016/S2213-8587(25)00092-0",
+      "pmid": "40609566",
+      "evidence_level": "Prespecified DXA substudy of a phase 2 randomized adult type-2-diabetes trial",
+      "claim_ids": ["body-composition"],
+      "claims": ["total fat-mass reductions", "lean-mass-loss proportion was similar to other obesity treatments"],
+      "verification_note": "Primary PubMed abstract reviewed 2026-07-19. The substudy does not show that lean mass is preserved or resolve functional muscle outcomes."
+    }
+  ]
+}

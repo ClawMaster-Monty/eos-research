@@ -1,0 +1,205 @@
+{
+  "brief": "trf-if-evidence",
+  "verified_on": "2026-07-18",
+  "sources": [
+    {
+      "citation": 1,
+      "doi": "10.1016/j.cmet.2018.04.010",
+      "evidence_level": "Human randomized crossover trial",
+      "claims": [
+        "Early TRE improved selected metabolic markers without weight loss in men with prediabetes."
+      ],
+      "verification_note": "DOI and abstract checked.",
+      "claim_ids": [
+        "timing-comparison"
+      ],
+      "reference_id": "ref1"
+    },
+    {
+      "citation": 3,
+      "doi": "10.3390/nu11061234",
+      "evidence_level": "Human randomized crossover trial",
+      "claims": [
+        "Early TRE has short-term circadian and glucose-related signals."
+      ],
+      "verification_note": "DOI and abstract checked.",
+      "claim_ids": [
+        "timing-comparison"
+      ],
+      "reference_id": "ref3"
+    },
+    {
+      "citation": 4,
+      "doi": "10.1016/j.cmet.2020.06.018",
+      "evidence_level": "Human randomized controlled trial",
+      "claims": [
+        "TRE can produce modest weight loss versus usual eating."
+      ],
+      "verification_note": "DOI and abstract checked.",
+      "claim_ids": [
+        "tre-weight-loss"
+      ],
+      "reference_id": "ref4"
+    },
+    {
+      "citation": 6,
+      "doi": "10.1038/s41467-022-28662-5",
+      "evidence_level": "Human randomized trial",
+      "claims": [
+        "Meal timing has short-term metabolic signals."
+      ],
+      "verification_note": "DOI and abstract checked.",
+      "claim_ids": [
+        "timing-comparison"
+      ],
+      "reference_id": "ref6"
+    },
+    {
+      "citation": 7,
+      "doi": "10.1056/NEJMoa2114833",
+      "evidence_level": "Human randomized controlled trial",
+      "claims": [
+        "TRE does not reliably outperform matched calorie restriction on average."
+      ],
+      "verification_note": "DOI and abstract checked.",
+      "claim_ids": [
+        "matched-restriction"
+      ],
+      "reference_id": "ref8"
+    },
+    {
+      "citation": 9,
+      "doi": "10.7326/M23-0052",
+      "evidence_level": "Human randomized controlled trial",
+      "claims": [
+        "TRE can support weight loss without calorie counting."
+      ],
+      "verification_note": "DOI and abstract checked.",
+      "claim_ids": [
+        "tre-weight-loss",
+        "matched-restriction"
+      ],
+      "reference_id": "ref10"
+    },
+    {
+      "citation": 11,
+      "doi": "10.1038/s41591-024-03375-y",
+      "evidence_level": "Human multicenter randomized controlled trial",
+      "claims": [
+        "Early, late, and self-selected eight-hour windows did not differ meaningfully for visceral fat."
+      ],
+      "verification_note": "DOI and abstract checked.",
+      "claim_ids": [
+        "timing-comparison"
+      ],
+      "reference_id": "ref13"
+    },
+    {
+      "citation": 13,
+      "doi": "10.1093/ajcn/nqy196",
+      "evidence_level": "Human randomized controlled trial",
+      "claims": [
+        "Intermittent energy restriction can be a workable alternative to continuous restriction."
+      ],
+      "verification_note": "DOI and abstract checked.",
+      "claim_ids": [
+        "intermittent-restriction"
+      ],
+      "reference_id": "ref15"
+    },
+    {
+      "citation": 14,
+      "doi": "10.1093/ajcn/85.4.981",
+      "evidence_level": "Small human controlled crossover trial",
+      "claims": [
+        "Evening one-meal-per-day eating produced adverse cardiometabolic and hunger signals in healthy adults."
+      ],
+      "verification_note": "DOI and abstract checked.",
+      "claim_ids": [
+        "omad-signals"
+      ],
+      "reference_id": "ref16"
+    },
+    {
+      "citation": 15,
+      "doi": "10.1001/jamanetworkopen.2018.0756",
+      "evidence_level": "Human randomized controlled trial",
+      "claims": [
+        "Intermittent and continuous energy restriction have similar average outcomes in type 2 diabetes."
+      ],
+      "verification_note": "DOI and abstract checked.",
+      "claim_ids": [
+        "intermittent-restriction"
+      ],
+      "reference_id": "ref17"
+    },
+    {
+      "citation": 17,
+      "doi": "10.1038/s41366-018-0247-2",
+      "evidence_level": "Human randomized controlled trial",
+      "claims": [
+        "Weight-loss outcomes can be similar across intermittent and continuous restriction."
+      ],
+      "verification_note": "DOI and abstract checked.",
+      "claim_ids": [
+        "intermittent-restriction"
+      ],
+      "reference_id": "ref19"
+    },
+    {
+      "citation": 18,
+      "doi": "10.1038/ijo.2010.171",
+      "evidence_level": "Human randomized controlled trial",
+      "claims": [
+        "Intermittent and continuous restriction have been compared for weight and risk markers."
+      ],
+      "verification_note": "DOI and abstract checked.",
+      "claim_ids": [
+        "intermittent-restriction"
+      ],
+      "reference_id": "ref20"
+    },
+    {
+      "citation": 19,
+      "doi": "10.1080/15502783.2025.2492184",
+      "pmid": "40241374",
+      "evidence_level": "Small human randomized controlled trial",
+      "claims": [
+        "In 17 trained adults, achieved intake did not differ statistically; TRE had less fat gain but lower training volume and slightly smaller squat gains."
+      ],
+      "verification_note": "DOI, PMID, and primary abstract checked.",
+      "claim_ids": [
+        "bulking-matched-intake"
+      ],
+      "reference_id": "ref21"
+    },
+    {
+      "citation": 20,
+      "doi": "10.1016/j.jhepr.2026.101956",
+      "pmid": "42413768",
+      "evidence_level": "Human multicenter randomized controlled trial",
+      "claims": [
+        "TRE produced no significant between-group difference versus usual care in liver fat, liver markers, or fecal microbiota."
+      ],
+      "verification_note": "DOI, PMID, and primary abstract checked.",
+      "claim_ids": [
+        "microbiome-liver"
+      ],
+      "reference_id": "ref22"
+    },
+    {
+      "citation": 21,
+      "doi": "10.1016/j.clnu.2026.106706",
+      "pmid": "42302513",
+      "evidence_level": "Human randomized controlled trial follow-up",
+      "claims": [
+        "Early and late TRE maintained greater weight loss than usual care at 12-month follow-up."
+      ],
+      "verification_note": "DOI, PMID, and primary abstract checked.",
+      "claim_ids": [
+        "timing-comparison"
+      ],
+      "reference_id": "ref23"
+    }
+  ]
+}

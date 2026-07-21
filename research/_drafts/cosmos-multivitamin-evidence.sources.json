@@ -1,0 +1,296 @@
+{
+  "brief": "What COSMOS Found About Multivitamins and Cognition",
+  "status": "draft-source-registry",
+  "verified_on": "2026-07-19",
+  "method": "Primary DOI/PMID metadata, PubMed abstracts, and accessible full texts reviewed directly; primary, secondary, exploratory, and derived outcomes separated.",
+  "sources": [
+    {
+      "citation": 1,
+      "reference_id": "ref1",
+      "doi": "10.1093/ajcn/nqac056",
+      "pmid": "35294969",
+      "evidence_level": "Parent COSMOS randomized double-blind 2x2 factorial trial; multivitamin cancer analysis",
+      "claim_ids": [
+        "funding-context",
+        "longevity-score",
+        "parent-design",
+        "parent-mvm",
+        "safety-context",
+        "scope-generalizability"
+      ],
+      "claims": [
+        "parent design and population",
+        "null total-invasive-cancer primary result",
+        "null total-CVD and mortality results",
+        "secondary lung-cancer estimate and event counts",
+        "commercial and public support disclosures"
+      ],
+      "verification_note": "Primary full text reviewed 2026-07-19. Lung cancer was one of many secondary outcomes and was not multiplicity-adjusted; do not present as established prevention."
+    },
+    {
+      "citation": 2,
+      "reference_id": "ref2",
+      "doi": "10.1016/j.cct.2022.106728",
+      "pmid": "35288332",
+      "evidence_level": "COSMOS design and baseline-characteristics paper",
+      "claim_ids": [
+        "human-rct-score",
+        "parent-design",
+        "parent-mvm",
+        "pooled-independence",
+        "scope-generalizability"
+      ],
+      "claims": [
+        "2x2 factorial architecture",
+        "sex-specific age thresholds",
+        "placebo run-in",
+        "eligibility and adherence requirements"
+      ],
+      "verification_note": "Primary design metadata and methods reviewed 2026-07-19. Women entered at age 65 or older and men at age 60 or older."
+    },
+    {
+      "citation": 3,
+      "reference_id": "ref3",
+      "doi": "10.1002/alz.12767",
+      "pmid": "36102337",
+      "evidence_level": "COSMOS-Mind randomized cognitive ancillary study",
+      "claim_ids": [
+        "age-equivalence",
+        "age-meaning",
+        "cocoa-context",
+        "final-insight",
+        "human-rct-score",
+        "mind-result",
+        "opening-summary",
+        "pooled-independence",
+        "takeaway-clinical",
+        "takeaway-signal"
+      ],
+      "claims": [
+        "2262 enrolled",
+        "null cocoa primary comparison",
+        "prespecified secondary MVM global-cognition estimate",
+        "unadjusted secondary outcomes",
+        "1.8-year cross-sectional age-equivalence derivation"
+      ],
+      "verification_note": "Primary full text reviewed 2026-07-19. MVM was a key secondary comparison. Type-I error was not controlled across secondary and tertiary outcomes; the age-equivalence calculation was called an imprecise yardstick."
+    },
+    {
+      "citation": 4,
+      "reference_id": "ref4",
+      "doi": "10.1002/alz.13078",
+      "pmid": "37035889",
+      "evidence_level": "Prespecified secondary COSMOS-Mind incidence analysis",
+      "claim_ids": [
+        "age-meaning",
+        "clinical-applicability",
+        "converter-context",
+        "final-insight",
+        "longevity-score",
+        "mci-dementia",
+        "opening-summary",
+        "takeaway-clinical"
+      ],
+      "claims": [
+        "110 incident MCI cases",
+        "14 incident probable-dementia cases",
+        "null MVM incidence estimates",
+        "22 percent power estimate"
+      ],
+      "verification_note": "Primary full text and Table 2 reviewed 2026-07-19. The identical p=0.62 values for MCI (HR 0.91) and probable dementia (HR 0.76) are confirmed from Table 2, not a transcription error. Probable dementia was adjudicated, not a confirmed clinical diagnosis. The study was underpowered and did not establish MCI or dementia prevention."
+    },
+    {
+      "citation": 5,
+      "reference_id": "ref5",
+      "doi": "10.1016/j.ajcnut.2023.05.011",
+      "pmid": "37244291",
+      "evidence_level": "COSMOS-Web randomized cognitive ancillary study",
+      "claim_ids": [
+        "age-equivalence",
+        "age-meaning",
+        "final-insight",
+        "human-rct-score",
+        "opening-summary",
+        "pooled-independence",
+        "takeaway-clinical",
+        "takeaway-signal",
+        "web-result"
+      ],
+      "claims": [
+        "3960 randomized participants and 3562-person ITT analysis sample",
+        "one-year immediate-recall primary endpoint",
+        "0.23-word modeled difference",
+        "null secondary outcomes",
+        "3.1-year cross-sectional age-equivalence"
+      ],
+      "verification_note": "Primary full text reviewed 2026-07-19. Web did not measure a prespecified global-cognition endpoint. The 3.1-year figure is a cross-sectional score translation, not a measured delay in decline."
+    },
+    {
+      "citation": 6,
+      "reference_id": "ref6",
+      "doi": "10.1016/j.ajcnut.2023.12.011",
+      "pmid": "38244989",
+      "evidence_level": "COSMOS-Clinic randomized ancillary study and prespecified within-COSMOS meta-analysis",
+      "claim_ids": [
+        "age-equivalence",
+        "age-meaning",
+        "bottom-line",
+        "clinic-result",
+        "clinical-applicability",
+        "final-insight",
+        "human-rct-score",
+        "opening-summary",
+        "pooled-independence",
+        "pooled-result",
+        "takeaway-clinical",
+        "takeaway-signal"
+      ],
+      "claims": [
+        "Clinic primary global-cognition CI crossed zero",
+        "secondary episodic-memory estimate",
+        "pooled outcome-specific sample sizes",
+        "pooled effect estimates",
+        "Bonferroni threshold",
+        "2-year age-equivalence translation"
+      ],
+      "verification_note": "Primary full text reviewed 2026-07-19. Global cognition pooled Mind and Clinic only; episodic memory pooled all three substudies. Bonferroni correction applied to two pooled coprimary outcomes, not retroactively to component-study analyses."
+    },
+    {
+      "citation": 7,
+      "reference_id": "ref7",
+      "doi": "10.1093/ajcn/nqac055",
+      "pmid": "35294962",
+      "evidence_level": "Parent COSMOS randomized double-blind 2x2 factorial trial; cocoa cardiovascular analysis",
+      "claim_ids": [
+        "cocoa-context",
+        "funding-context",
+        "parent-design"
+      ],
+      "claims": [
+        "parent design and population",
+        "500 mg/day cocoa-flavanol intervention",
+        "null primary total-CVD result",
+        "secondary CVD-death and per-protocol context",
+        "commercial and public support disclosures"
+      ],
+      "verification_note": "Primary full text reviewed 2026-07-19. The total-CVD primary endpoint was null. Secondary outcomes were not multiplicity-adjusted and were labeled hypothesis-generating."
+    },
+    {
+      "citation": 8,
+      "reference_id": "ref8",
+      "doi": "10.1073/pnas.2216932120",
+      "pmid": "37252983",
+      "evidence_level": "COSMOS-Web randomized cocoa cognitive analysis",
+      "claim_ids": [
+        "cocoa-context"
+      ],
+      "claims": [
+        "null cocoa result on prespecified one-year immediate-recall endpoint",
+        "secondary diet-quality subgroup context"
+      ],
+      "verification_note": "Primary paper reviewed 2026-07-19. Favorable low-diet-quality subgroup findings do not replace the null prespecified overall endpoint."
+    },
+    {
+      "citation": 9,
+      "reference_id": "ref9",
+      "doi": "10.1016/j.ajcnut.2023.10.031",
+      "pmid": "38070683",
+      "evidence_level": "COSMOS-Clinic randomized cocoa cognitive analysis",
+      "claim_ids": [
+        "cocoa-context"
+      ],
+      "claims": [
+        "null global-cognition result",
+        "null episodic-memory result",
+        "null executive-function and attention result"
+      ],
+      "verification_note": "Primary paper reviewed 2026-07-19. Overall cognitive outcomes were null; subgroup findings were unadjusted."
+    },
+    {
+      "citation": 10,
+      "reference_id": "ref10",
+      "doi": "10.7326/0003-4819-159-12-201312170-00006",
+      "pmid": "24490265",
+      "evidence_level": "Long-term randomized Physicians' Health Study II cognitive analysis",
+      "claim_ids": [
+        "phs-cognition"
+      ],
+      "claims": [
+        "5947 male physicians",
+        "null global-cognition and verbal-memory changes",
+        "8.5-year average to final assessment",
+        "lack of prerandomization cognitive baseline"
+      ],
+      "verification_note": "Primary paper reviewed 2026-07-19. This is relevant randomized counterevidence but not a like-for-like replication of COSMOS because population, follow-up, and baseline cognitive assessment differed."
+    },
+    {
+      "citation": 11,
+      "reference_id": "ref11",
+      "doi": "10.1016/j.jand.2026.156299",
+      "pmid": "41587736",
+      "evidence_level": "Randomized COSMOS nutritional-biomarker substudy",
+      "claim_ids": [
+        "mechanistic-score",
+        "nutrient-biomarkers"
+      ],
+      "claims": [
+        "399-person sample",
+        "selected serum carotenoid and alpha-tocopherol increases",
+        "exposure-versus-mediation distinction"
+      ],
+      "verification_note": "Primary abstract and results reviewed 2026-07-19. Biomarker changes demonstrate exposure to selected nutrients, not comprehensive deficiency correction or mediation of cognitive effects."
+    },
+    {
+      "citation": 12,
+      "reference_id": "ref12",
+      "doi": "10.1038/s41591-026-04239-3",
+      "pmid": "41803341",
+      "evidence_level": "Prespecified randomized COSMOS epigenetic-clock ancillary analysis",
+      "claim_ids": [
+        "aging-biomarkers"
+      ],
+      "claims": [
+        "958-person sample",
+        "two nominally positive clocks among five",
+        "lack of multiplicity survival",
+        "derived four-month translation"
+      ],
+      "verification_note": "Primary paper reviewed 2026-07-19. The four-month figure selectively averages two nominal clock estimates; neither survives correction across five clocks, and no clinical aging outcome was measured."
+    },
+    {
+      "citation": 13,
+      "reference_id": "ref13",
+      "doi": "10.1007/s11357-026-02197-9",
+      "pmid": "41910928",
+      "evidence_level": "Randomized COSMOS metabolomics ancillary analysis",
+      "claim_ids": [
+        "aging-biomarkers"
+      ],
+      "claims": [
+        "399-person sample",
+        "168 metabolites",
+        "seven metabolomic clocks",
+        "24 modeled disease-risk scores",
+        "no findings surviving FDR correction"
+      ],
+      "verification_note": "Primary paper reviewed 2026-07-19. Metabolomic clocks and risk scores are surrogate models, not observed disease outcomes; no reported signal survived false-discovery-rate correction."
+    },
+    {
+      "citation": 14,
+      "reference_id": "ref14",
+      "doi": "10.1093/jbmr/zjaf030",
+      "pmid": "39964350",
+      "evidence_level": "Randomized COSMOS fracture ancillary analysis using self-reported doctor-diagnosed outcomes",
+      "claim_ids": [
+        "safety-context"
+      ],
+      "claims": [
+        "total clinical fracture event counts",
+        "total and nonvertebral fracture adjusted hazard ratios",
+        "self-reported ascertainment",
+        "multiplicity limitations"
+      ],
+      "verification_note": "Primary full text reviewed 2026-07-19. Fractures were not centrally adjudicated. Estimates leaned weakly adverse, but multiple comparisons were not familywise-adjusted; do not claim definitive harm."
+    }
+  ]
+}

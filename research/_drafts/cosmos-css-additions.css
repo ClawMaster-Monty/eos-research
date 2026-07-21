@@ -1,0 +1,169 @@
+/* === Evidence Tables === */
+.table-wrap {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.evidence-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.evidence-table th,
+.evidence-table td {
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid var(--rule);
+}
+
+.evidence-table thead th {
+  background: var(--paper-2);
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.evidence-table tbody tr:nth-child(even) {
+  background: var(--paper);
+}
+
+.evidence-table tbody tr:nth-child(odd) {
+  background: var(--paper-2);
+}
+
+.evidence-table td:first-child {
+  font-weight: 500;
+}
+
+.evidence-table .tag-ok {
+  color: #155724;
+  font-weight: 600;
+}
+
+.evidence-table .tag-null {
+  color: #856404;
+  font-weight: 600;
+}
+
+.evidence-table .tag-caution {
+  color: #721c24;
+  font-weight: 600;
+}
+
+/* Conclusion-audit alignment ratings */
+.alignment-well       { color: #155724; }
+.alignment-mostly     { color: #004085; }
+.alignment-misleading { color: #856404; }
+.alignment-overclaim  { color: #721c24; }
+
+/* === Brief-specific elements === */
+.brief-container {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.brief-header {
+  margin-bottom: 2rem;
+}
+
+.brief-header .eyebrow {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
+}
+
+.brief-header h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+}
+
+.brief-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.brief-meta time {
+  margin-left: auto;
+}
+
+.disclaimer,
+.audience-note {
+  font-size: 0.85rem;
+  color: var(--muted);
+  padding: 1rem;
+  background: var(--paper);
+  border-left: 3px solid var(--rule);
+  margin: 1.5rem 0;
+}
+
+.audience-note {
+  border-left-color: var(--cyan);
+}
+
+.toc-card {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.toc-card h2 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.75rem;
+  color: var(--muted);
+}
+
+.toc-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  columns: 2;
+  column-gap: 2rem;
+}
+
+.toc-card li {
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+}
+
+.evidence-list {
+  padding-left: 1.25rem;
+}
+
+.evidence-list li {
+  margin-bottom: 0.75rem;
+}
+
+.reference-list {
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.reference-list li {
+  margin-bottom: 0.6rem;
+}
+
+.brief-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.85rem;
+}
+
+.ink-accent {
+  color: var(--cyan);
+}

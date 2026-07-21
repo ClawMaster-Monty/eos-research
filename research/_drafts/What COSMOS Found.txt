@@ -1,0 +1,128 @@
+EOS RESEARCH
+ARCHIVEMETHOD
+IN THIS DRAFT
+
+THE QUESTION
+HOW COSMOS WAS DESIGNED
+WHAT THE COGNITION STUDIES FOUND
+CLINICAL OUTCOMES: MCI AND DEMENTIA
+WHAT “TWO YEARS OF COGNITIVE AGING” MEANS
+WHAT THE BROADER EVIDENCE ADDS
+EVIDENCE SCORECARD
+WHAT WE DON'T KNOW
+TAKEAWAY
+METHODOLOGY
+REFERENCES
+RESEARCH BRIEF · DRAFT FOR EDITORIAL REVIEW · COGNITIVE HEALTH
+
+What COSMOS Found About Multivitamins and Cognition
+EOS RESEARCH
+
+🔵 MODERATE CONFIDENCE — A SMALL COGNITIVE-TEST EFFECT WAS DETECTED
+19 JULY 2026
+EDITORIAL DISCLAIMER: This review is educational and is not medical advice. COSMOS tested one specific commercial multivitamin-mineral formulation in generally healthy older US volunteers. Its findings should not be generalized automatically to other formulations, doses, younger adults, people with diagnosed deficiencies, or dementia treatment.1,2
+COSMOS found small average differences on selected cognitive tests among older adults. It did not establish that multivitamins prevent dementia, preserve independence, or delay cognitive decline by two years.3,4,5,6
+
+The pooled analyses estimated between-group differences in cognitive change of 0.07 standard-deviation (SD) units for global cognition and 0.06 SD units for episodic memory. SD is a standardized test-score scale; these values are not percentage reductions in dementia risk. Both estimates met the paper's Bonferroni threshold for its two coprimary meta-analytic outcomes.6
+
+THE QUESTION
+How large and clinically meaningful were the cognitive differences—and what, if anything, do they tell us about dementia risk or everyday function?
+
+Answering that requires separating the parent trial's cancer and cardiovascular endpoints, the individual cognitive substudies, the pooled analysis, the MCI and probable-dementia incidence analysis, and the derived “years of cognitive aging” translations.
+
+HOW COSMOS WAS DESIGNED
+COSMOS randomized 21,442 US adults in a double-blind 2×2 factorial trial of cocoa extract, a daily multivitamin-mineral, both, or placebo. Women entered at age 65 or older and men at age 60 or older. Participants completed a placebo run-in and had to demonstrate at least 75% pill adherence before randomization.7,1,2
+
+For the multivitamin intervention, total invasive cancer was the primary endpoint. Total cardiovascular disease and all-cause mortality were secondary outcomes; none was significantly reduced over median 3.6-year follow-up. Cognition was studied in nested ancillary cohorts rather than as the parent trial's primary purpose.1,2
+
+WHAT THE COGNITION STUDIES FOUND
+COSMOS-Mind
+COSMOS-Mind enrolled 2,262 participants and assessed cognition by telephone over three years. Cocoa extract on global cognition was the primary intervention comparison and was null: 0.03 SD (95% CI −0.02 to 0.08; p=0.28). The multivitamin-mineral (MVM) contrast in change averaged across follow-up was a prespecified key secondary endpoint and favored assignment: 0.07 SD (95% CI 0.02–0.12; p=0.007). The paper did not control type-I error across its secondary and tertiary comparisons; memory, executive-function, and subgroup findings were likewise unadjusted.3
+
+COSMOS-Web
+COSMOS-Web randomized 3,960 participants; 3,562 with baseline and at least one follow-up assessment comprised the intention-to-treat analysis sample. Its prespecified primary endpoint was one-year immediate word recall—not global cognition. The modeled one-year treatment difference was 0.23 recalled words (d=0.070; p=0.025); the treatment contrast averaged across follow-ups at years 1–3 was 0.15 words (d=0.048; p=0.011). Secondary retention, object-recognition, and executive-function outcomes were not significant.5
+
+COSMOS-Clinic
+COSMOS-Clinic included 573 participants with baseline in-person testing. Its primary between-group difference in global-cognition change was 0.06 SD (95% CI −0.003 to 0.13), so it did not independently meet that endpoint. A secondary episodic-memory change estimate was 0.12 SD (95% CI 0.002–0.23); secondary outcomes were not multiplicity-adjusted.6
+
+The pooled analysis
+The within-COSMOS meta-analysis used nonoverlapping participants, but the sample differed by outcome. Global cognition included 2,731 participants from Mind and Clinic; episodic memory included 5,203 from Mind, Clinic, and Web. The pooled between-group differences in change were 0.07 SD (95% CI 0.03–0.11; p=0.0009) and 0.06 SD (95% CI 0.03–0.10; p=0.0007), respectively. Both met the paper's Bonferroni threshold of 0.025 for its two coprimary outcomes.6
+
+Pooled outcome	Participants	Effect estimate	Statistical result
+Global cognition	2,731	0.07 SD	95% CI 0.03–0.11; p=0.0009
+Episodic memory	5,203	0.06 SD	95% CI 0.03–0.10; p=0.0007
+These were small differences from studies nested within one parent trial, not results from three independent trials. The two-outcome correction does not address multiplicity across the broader COSMOS cognition publication program.3,5,6,2
+
+Cocoa did not produce the same overall cognitive signal
+Cocoa extract did not significantly reduce the parent trial's primary total-CVD endpoint. Its prespecified cognition endpoints were also null in Mind, Web, and Clinic; favorable diet-quality subgroup findings were secondary and do not replace those primary results.7,3,8,9
+
+CLINICAL OUTCOMES: MCI AND DEMENTIA
+No significant prevention effect was demonstrated.
+
+COSMOS-Mind prespecified incident mild cognitive impairment and probable all-cause dementia as secondary aims. A masked panel adjudicated 110 incident MCI cases and 14 incident probable-dementia cases over three years. MVM versus placebo produced HR 0.91 (95% CI 0.63–1.32; p=0.62) for MCI and HR 0.76 (95% CI 0.27–2.20; p=0.62) for probable dementia. The study estimated only 22% power to detect a 20% MCI effect.4
+
+The null results do not prove that no clinically meaningful effect exists. They do mean COSMOS did not establish one. A post hoc analysis of score trajectories among participants who converted to MCI does not change the null incidence comparison.4
+
+WHAT “TWO YEARS OF COGNITIVE AGING” MEANS
+The phrase was not a directly measured delay in aging. The pooled paper translated its 0.07-SD global-cognition effect by comparing it with a cross-sectional score difference associated with participants being about two years apart in age. Related papers derived approximately 1.8 years in Mind, 3.1 years in Web, and 4.8 years from Clinic episodic memory using different tests and age slopes.3,5,6
+
+These calculations do not show two longitudinal years of decline prevented, a two-year delay in MCI or dementia, slower biological aging, preserved activities of daily living, or two additional years of independent living.3,4,5,6
+
+Precise language: “Equivalent to the cross-sectional score difference associated with roughly two years of age” is defensible. “Slowed cognitive aging by two years” sounds more causal and clinically established than the data support.
+WHAT THE BROADER EVIDENCE ADDS
+An earlier long-term trial did not show a cognitive benefit
+Physicians' Health Study II randomized 5,947 male physicians aged 65 or older and found no multivitamin benefit for global cognitive change (−0.01 SD, 95% CI −0.04 to 0.02) or verbal-memory change (−0.005 SD, 95% CI −0.04 to 0.03). The final assessment occurred an average 8.5 years after randomization, but the study lacked a prerandomization cognitive baseline. It is informative counterevidence, not a like-for-like replication of COSMOS.10
+
+Biomarkers confirm exposure, not clinical mechanism
+In a randomized 399-person substudy, multivitamin assignment increased selected serum carotenoids and α-tocopherol over two years. This confirms exposure to parts of the formulation; it does not establish comprehensive deficiency correction or show that those changes mediated cognition.11
+
+A 958-person analysis found nominal changes in two of five epigenetic clocks—PCGrimAge p=0.017 and PCPhenoAge p=0.032—but neither meets a reviewer-applied Bonferroni threshold of 0.01 for five clock tests. The reported “about four months” estimate was a derived average, not a prespecified clinical endpoint. In a separate 399-person metabolomics study, no signal survived false-discovery-rate correction. These are exploratory surrogates, not proof of slower biological aging or reduced disease incidence.12,13
+
+EVIDENCE SCORECARD
+Domain	Grade	EOS assessment
+Human randomized evidence	B+	Large parent trial and multiple randomized ancillary analyses, but cognitive studies share one trial ecosystem and effects are small.3,5,6,2
+Mechanistic evidence	C	Selected nutrient biomarkers confirm exposure, but no demonstrated pathway explains the cognitive signal or identifies the responsible nutrient.11
+Safety evidence	B−	No adjudicated major safety signal was established. The parent paper reported a nominal increase in self-reported gastrointestinal bleeding (HR 1.17, 95% CI 1.03–1.32) among numerous unadjusted side-effect comparisons. A later analysis found a weakly adverse total-fracture estimate (HR 1.09, 95% CI 1.00–1.19; p=0.059); fractures were self-reported and not centrally adjudicated, and multiple comparisons were not familywise-adjusted. This is not proof of harm.1,14
+Longevity evidence	D	No demonstrated extension of lifespan, healthspan, independence, or dementia-free survival.1,4
+Clinical applicability	C	Evidence shows a small cognitive-test difference, not established dementia prevention or a basis for routine supplementation.4,6
+WHAT WE DON'T KNOW
+Whether the cognitive difference persists after supplementation stops.
+Whether it reduces clinically diagnosed dementia with longer follow-up.
+Whether it preserves daily function or independent living.
+Which nutrient or combination, if any, drives the effect.
+Whether benefit is concentrated among people with specific deficiencies or dietary patterns.
+Whether the result generalizes to other formulations or more diverse populations.
+Whether any potential gain outweighs cost, pill burden, interaction risk, and excess nutrient exposure.
+TAKEAWAY
+COSMOS found a small average difference favoring multivitamin assignment on selected cognitive tests. Both pooled estimates met the paper's multiplicity-adjusted threshold for its two coprimary outcomes; that limited correction does not exclude chance, bias, or multiplicity across the broader research program.3,5,6
+
+The trial did not establish fewer cases of mild cognitive impairment or probable dementia, and the “years of cognitive aging” estimates were score translations rather than observed delays in clinical decline.3,4,5,6
+
+The Insight: COSMOS detected a small cognitive-test difference. It did not establish dementia prevention or a measured two-year delay in cognitive decline.3,4,5,6
+METHODOLOGY
+EOS reviewed the primary COSMOS publications, distinguished prespecified from exploratory outcomes, checked multiplicity handling, and compared the findings with prior randomized evidence.
+
+Funding and conflicts of interest: COSMOS combined public funding with commercial support. Mars Edge provided an investigator-initiated grant with infrastructure and donated study pills and packaging; Pfizer Consumer Healthcare provided partial study-pill and packaging support. The parent papers report that commercial funders had no role in specified analysis or manuscript decisions. These disclosures matter, but they do not by themselves demonstrate distortion.7,1
+
+Editorial process note
+Two AI-assisted research packets were treated as provisional discovery inputs rather than verified drafts. EOS independently resolved primary identifiers and built a claim/source ledger. Material claims map to fourteen primary sources through a repository-backed source registry. Automated checks validate traceability but do not replace scientific interpretation or editorial sign-off.
+
+REFERENCES
+Sesso HD, Rist PM, Aragaki AK, Rautiainen S, Johnson LG, Friedenberg G, et al. Multivitamins in the prevention of cancer and cardiovascular disease: the COcoa Supplement and Multivitamin Outcomes Study (COSMOS) randomized clinical trial. Am J Clin Nutr. 2022;115(6):1501–1510. doi:10.1093/ajcn/nqac056; PMID: 35294969.
+Rist PM, Sesso HD, Johnson LG, Aragaki AK, Wang L, Rautiainen S, et al. Design and baseline characteristics of participants in the COcoa Supplement and Multivitamin Outcomes Study (COSMOS). Contemp Clin Trials. 2022;116:106728. doi:10.1016/j.cct.2022.106728; PMID: 35288332.
+Baker LD, Manson JE, Rapp SR, Sesso HD, Gaussoin SA, Shumaker SA, et al. Effects of cocoa extract and a multivitamin on cognitive function: a randomized clinical trial. Alzheimers Dement. 2023;19(4):1308–1319. doi:10.1002/alz.12767; PMID: 36102337.
+Sachs BC, Williams BJ, Gaussoin SA, Baker LD, Manson JE, Espeland MA, et al. Impact of multivitamin-mineral and cocoa extract on incidence of mild cognitive impairment and dementia: Results from the COcoa Supplement and Multivitamin Outcomes Study for the Mind (COSMOS-Mind). Alzheimers Dement. 2023;19(11):4863–4871. doi:10.1002/alz.13078; PMID: 37035889.
+Yeung LK, Alschuler DM, Wall M, Luttmann-Gibson H, Copeland T, Hale C, et al. Multivitamin Supplementation Improves Memory in Older Adults: a randomized clinical trial. Am J Clin Nutr. 2023;118(1):273–282. doi:10.1016/j.ajcnut.2023.05.011; PMID: 37244291.
+Vyas CM, Manson JE, Sesso HD, Cook NR, Rist PM, Weinberg A, et al. Effect of multivitamin-mineral supplementation versus placebo on cognitive function: results from the clinic subcohort of the COcoa Supplement and Multivitamin Outcomes Study (COSMOS) randomized clinical trial and meta-analysis of 3 cognitive studies within COSMOS. Am J Clin Nutr. 2024;119(3):692–701. doi:10.1016/j.ajcnut.2023.12.011; PMID: 38244989.
+Sesso HD, Manson JE, Aragaki AK, Rist PM, Johnson LG, Friedenberg G, et al. Effect of cocoa flavanol supplementation for the prevention of cardiovascular disease events: the COcoa Supplement and Multivitamin Outcomes Study (COSMOS) randomized clinical trial. Am J Clin Nutr. 2022;115(6):1490–1500. doi:10.1093/ajcn/nqac055; PMID: 35294962.
+Brickman AM, Yeung LK, Alschuler DM, Ottaviani JI, Kuhnle GGC, Sloan RP, et al. Dietary flavanols restore hippocampal-dependent memory in older adults with lower diet quality and lower habitual flavanol consumption. Proc Natl Acad Sci U S A. 2023;120(23):e2216932120. doi:10.1073/pnas.2216932120; PMID: 37252983.
+Vyas CM, Manson JE, Sesso HD, Rist PM, Weinberg A, Kim E, et al. Effect of cocoa extract supplementation on cognitive function: results from the clinic subcohort of the COSMOS trial. Am J Clin Nutr. 2024;119(1):39–48. doi:10.1016/j.ajcnut.2023.10.031; PMID: 38070683.
+Grodstein F, O'Brien J, Kang JH, Dushkes R, Cook NR, Okereke O, et al. Long-term multivitamin supplementation and cognitive function in men: a randomized trial. Ann Intern Med. 2013;159(12):806–814. doi:10.7326/0003-4819-159-12-201312170-00006; PMID: 24490265.
+Christopher CN, Erdman JW, Kim E, Black M, Rist PM, Tobias DK, et al. Effects of Randomized Multivitamin Supplementation on Carotenoids and α-Tocopherol in the COcoa Supplement and Multivitamin Outcomes Study. J Acad Nutr Diet. 2026;126(5):156299. doi:10.1016/j.jand.2026.156299; PMID: 41587736.
+Li S, Hamaya R, Zhu H, Chen BH, Pereira AC, Ivey KL, et al. Effects of daily multivitamin-multimineral and cocoa extract supplementation on epigenetic aging clocks in the COSMOS randomized clinical trial. Nat Med. 2026;32(3):1012–1022. doi:10.1038/s41591-026-04239-3; PMID: 41803341.
+Li S, Hamaya R, Farukhi Z, Li J, Rist PM, Manson JE, et al. Effects of daily multivitamin-multimineral supplementation on metabolomic profiles: 2-year findings from the COSMOS randomized clinical trial. Geroscience. Published online 30 March 2026. doi:10.1007/s11357-026-02197-9; PMID: 41910928.
+Crandall CJ, Chou S, Kim E, Ratnarajah D, Cook NR, Clar A, et al. Effects of cocoa extract supplementation and multivitamin/multimineral supplements on self-reported fractures in the Cocoa Supplement and Multivitamins Outcomes Study randomized clinical trial. J Bone Miner Res. 2025;40(5):591–602. doi:10.1093/jbmr/zjaf030; PMID: 39964350.
+All cited records were checked against DOI/PMID metadata and primary abstracts or accessible full text. This is a review draft, not a published recommendation.
+
+Editorial Policy: EOS Research evaluates healthspan interventions using the totality of available evidence, prioritizing systematic reviews, randomized controlled trials, and well-designed human studies. Editorials are educational and are not medical advice.
+— EOS Research · Look closer. Claim less.
