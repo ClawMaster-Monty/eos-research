@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eos-research.local/schemas/access-barrier.schema.json",
+  "title": "EOS Access Barrier",
+  "description": "One record per blocked or partially-accessible source. Used by EOS to make missing evidence actionable, not hidden.",
+  "type": "object",
+  "required": [
+    "source_id",
+    "platform",
+    "url",
+    "query",
+    "date",
+    "access_class",
+    "evidence_status",
+    "next_route",
+    "evidentiary_consequence"
+  ],
+  "properties": {
+    "source_id": { "type": "string" },
+    "platform": { "type": "string" },
+    "url": { "type": "string" },
+    "query": { "type": "string" },
+    "date": { "type": "string", "format": "date" },
+    "investigator": { "type": "string" },
+    "access_class": {
+      "type": "string",
+      "enum": [
+        "open",
+        "authenticated-public",
+        "archive-partial",
+        "account-gated",
+        "private-permission",
+        "deleted",
+        "paywalled",
+        "robots-limited",
+        "captcha-limited",
+        "metadata-only",
+        "nonpublic"
+      ]
+    },
+    "evidence_status": {
+      "type": "string",
+      "enum": [
+        "unresolved",
+        "partial",
+        "captured",
+        "documented",
+        "verified",
+        "non_recoverable"
+      ]
+    },
+    "failure_detail": { "type": "string" },
+    "screenshot_path": { "type": "string" },
+    "likely_material": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "attempted_routes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["route", "date"],
+        "properties": {
+          "route": { "type": "string" },
+          "date": { "type": "string", "format": "date" },
+          "outcome": { "type": "string" }
+        }
+      }
+    },
+    "next_route": { "type": "string" },
+    "authorization_required": { "type": "boolean" },
+    "owner_contact": { "type": "string" },
+    "retry_date": { "type": "string", "format": "date" },
+    "evidentiary_consequence": { "type": "string" },
+    "raw_capture_path": { "type": "string" },
+    "sha256": { "type": "string" }
+  },
+  "additionalProperties": false
+}
