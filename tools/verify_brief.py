@@ -32,7 +32,7 @@ def reference_entries(html):
 
 
 def source_identifier(source):
-    return source.get("doi") or source.get("pmid") or ""
+    return source.get("doi") or source.get("pmid") or source.get("nct") or source.get("url") or ""
 
 
 def verify_brief(brief_path, registry_path):
@@ -74,7 +74,10 @@ def verify_brief(brief_path, registry_path):
         errors.append("duplicate registry citation")
     doi_ids = [str(item.get("doi", "")).lower() for item in sources_list if item.get("doi")]
     pmid_ids = [str(item.get("pmid", "")) for item in sources_list if item.get("pmid")]
-    if len(doi_ids) != len(set(doi_ids)) or len(pmid_ids) != len(set(pmid_ids)):
+    nct_ids = [str(item.get("nct", "")).lower() for item in sources_list if item.get("nct")]
+    url_ids = [str(item.get("url", "")).lower() for item in sources_list if item.get("url")]
+    if (len(doi_ids) != len(set(doi_ids)) or len(pmid_ids) != len(set(pmid_ids))
+            or len(nct_ids) != len(set(nct_ids)) or len(url_ids) != len(set(url_ids))):
         errors.append("duplicate source identifier")
     claim_map = {}
     claim_pattern = re.compile(
@@ -102,7 +105,7 @@ def verify_brief(brief_path, registry_path):
                 f"citation {citation} claim_ids mismatch; missing={missing}, extra={extra}"
             )
         if not source_identifier(source):
-            errors.append(f"citation {citation} is missing doi or pmid")
+            errors.append(f"citation {citation} is missing a source identifier (doi, pmid, nct, or url)")
         if citation > len(listed):
             errors.append(f"citation {citation} has no listed reference")
             continue

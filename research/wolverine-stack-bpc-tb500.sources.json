@@ -1,0 +1,536 @@
+{
+  "brief": "wolverine-stack-bpc-tb500",
+  "verified_on": "2026-07-31",
+  "sources": [
+    {
+      "citation": 1,
+      "reference_id": "ref1",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Staresinic M, et al. Transected rat Achilles tendon study. PMID 14554208 . DOI: 10.1016/S0736-0266(03)00110-4."
+      ],
+      "claim_ids": [
+        "claim-20",
+        "claim-67"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "doi": "10.1016/S0736-0266(03)00110-4",
+      "pmid": "14554208"
+    },
+    {
+      "citation": 2,
+      "reference_id": "ref2",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Krivic A, et al. Rat Achilles tendon-to-bone detachment. PMID 16583442 . DOI: 10.1002/jor.20096."
+      ],
+      "claim_ids": [
+        "claim-20",
+        "claim-67"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "doi": "10.1002/jor.20096",
+      "pmid": "16583442"
+    },
+    {
+      "citation": 3,
+      "reference_id": "ref3",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Krivic A, et al. Early rat Achilles functional recovery. PMID 18594781 . DOI: 10.1007/s00011-007-7056-8."
+      ],
+      "claim_ids": [
+        "claim-20",
+        "claim-67"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "doi": "10.1007/s00011-007-7056-8",
+      "pmid": "18594781"
+    },
+    {
+      "citation": 4,
+      "reference_id": "ref4",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Cerovecki T, et al. Rat medial-collateral-ligament healing. PMID 20225319 . DOI: 10.1002/jor.21107."
+      ],
+      "claim_ids": [
+        "claim-20",
+        "claim-67"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "doi": "10.1002/jor.21107",
+      "pmid": "20225319"
+    },
+    {
+      "citation": 5,
+      "reference_id": "ref5",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Staresinic M, et al. Rat quadriceps transection. PMID 16609979 . DOI: 10.1002/jor.20089."
+      ],
+      "claim_ids": [
+        "claim-20",
+        "claim-67"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "doi": "10.1002/jor.20089",
+      "pmid": "16609979"
+    },
+    {
+      "citation": 6,
+      "reference_id": "ref6",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Novinscak T, et al. Rat muscle-crush study. PMID 18668315 . DOI: 10.1007/s00595-007-3706-2."
+      ],
+      "claim_ids": [
+        "claim-20",
+        "claim-67"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "doi": "10.1007/s00595-007-3706-2",
+      "pmid": "18668315"
+    },
+    {
+      "citation": 7,
+      "reference_id": "ref7",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Lee E, Padgett B. Intra-Articular Injection of BPC 157 for Multiple Types of Knee Pain. PMID 34324435 ."
+      ],
+      "claim_ids": [
+        "claim-22",
+        "claim-28",
+        "claim-69",
+        "claim-86"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "pmid": "34324435"
+    },
+    {
+      "citation": 8,
+      "reference_id": "ref8",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Vasireddi N, et al. Emerging Use of BPC-157 in Orthopaedic Sports Medicine: A Systematic Review. PMID 40756949 . DOI: 10.1177/15563316251355551."
+      ],
+      "claim_ids": [
+        "claim-22",
+        "claim-72"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "doi": "10.1177/15563316251355551",
+      "pmid": "40756949"
+    },
+    {
+      "citation": 9,
+      "reference_id": "ref9",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Esposito S, et al. Identification of the acetylated 17\u201323 thymosin-beta-4 fragment in TB-500. PMID 22962027 . DOI: 10.1002/dta.1402."
+      ],
+      "claim_ids": [
+        "claim-24",
+        "claim-74",
+        "claim-80"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "doi": "10.1002/dta.1402",
+      "pmid": "22962027"
+    },
+    {
+      "citation": 10,
+      "reference_id": "ref10",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Ho ENM, et al. Doping-control analysis of TB-500 in horses. PMID 23084823 . DOI: 10.1016/j.chroma.2012.09.043."
+      ],
+      "claim_ids": [
+        "claim-24",
+        "claim-74"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "doi": "10.1016/j.chroma.2012.09.043",
+      "pmid": "23084823"
+    },
+    {
+      "citation": 11,
+      "reference_id": "ref11",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Rahaman KA, et al. TB-500 metabolism and in-vitro wound-healing assay. PMID 38382158 . DOI: 10.1016/j.jchromb.2024.124033."
+      ],
+      "claim_ids": [
+        "claim-24",
+        "claim-75"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "doi": "10.1016/j.jchromb.2024.124033",
+      "pmid": "38382158"
+    },
+    {
+      "citation": 12,
+      "reference_id": "ref12",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Ruff D, et al. IV full-length thymosin-beta-4 in healthy volunteers. PMID 20536472 . DOI: 10.1111/j.1749-6632.2010.05474.x."
+      ],
+      "claim_ids": [
+        "claim-26",
+        "claim-76"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "doi": "10.1111/j.1749-6632.2010.05474.x",
+      "pmid": "20536472"
+    },
+    {
+      "citation": 13,
+      "reference_id": "ref13",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Wang X, et al. Recombinant full-length thymosin-beta-4 phase-I study. PMID 34346165 . DOI: 10.1111/jcmm.16693."
+      ],
+      "claim_ids": [
+        "claim-26",
+        "claim-76"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "doi": "10.1111/jcmm.16693",
+      "pmid": "34346165"
+    },
+    {
+      "citation": 14,
+      "reference_id": "ref14",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Guarnera G, et al. Topical full-length thymosin-beta-4 for venous ulcers. PMID 20536470 . DOI: 10.1111/j.1749-6632.2010.05490.x."
+      ],
+      "claim_ids": [
+        "claim-26",
+        "claim-76"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "doi": "10.1111/j.1749-6632.2010.05490.x",
+      "pmid": "20536470"
+    },
+    {
+      "citation": 15,
+      "reference_id": "ref15",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Sosne G, Ousler GW. RGN-259 for severe dry eye. PMID 26056426 . DOI: 10.2147/OPTH.S80954."
+      ],
+      "claim_ids": [
+        "claim-26",
+        "claim-76"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "doi": "10.2147/OPTH.S80954",
+      "pmid": "26056426"
+    },
+    {
+      "citation": 16,
+      "reference_id": "ref16",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "US Patent 5,288,708. Pharmacologically active substance BPC, process for its preparation and its use in medicine. Patent text ."
+      ],
+      "claim_ids": [
+        "claim-56"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "url": "https://www.freepatentsonline.com/5288708.html"
+    },
+    {
+      "citation": 17,
+      "reference_id": "ref17",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "US Patent 6,268,346. Peptides with organo-protective activity. Patent text ."
+      ],
+      "claim_ids": [
+        "claim-56"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "url": "https://www.freepatentsonline.com/6268346.html"
+    },
+    {
+      "citation": 18,
+      "reference_id": "ref18",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "European Patent EP2968442B1. New stable pentadecapeptide salts, preparation, pharmaceutical use, and therapy. Patent record ."
+      ],
+      "claim_ids": [
+        "claim-56"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "url": "https://patents.google.com/patent/EP2968442B1/en"
+    },
+    {
+      "citation": 19,
+      "reference_id": "ref19",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "ClinicalTrials.gov. PCO-02 safety and pharmacokinetics trial. NCT02637284 ."
+      ],
+      "claim_ids": [
+        "claim-58"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "nct": "NCT02637284"
+    },
+    {
+      "citation": 20,
+      "reference_id": "ref20",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "NIH RePORTER. Nonclinical Studies to Advance Novel Drug for Post-STEMI Cardiac Regeneration; award 1RC3HL103357-01. Application 7927703 ."
+      ],
+      "claim_ids": [
+        "claim-60"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "url": "https://reporter.nih.gov/project-details/7927703"
+    },
+    {
+      "citation": 21,
+      "reference_id": "ref21",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "ClinicalTrials.gov. Phase-I IV full-length thymosin-beta-4 study withdrawn before initiation because of contract-manufacturing issues. NCT00743769 ."
+      ],
+      "claim_ids": [
+        "claim-60"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "nct": "NCT00743769"
+    },
+    {
+      "citation": 22,
+      "reference_id": "ref22",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "ClinicalTrials.gov. Injectable full-length thymosin-beta-4 acute-myocardial-infarction study withdrawn before initiation. NCT01311518 ."
+      ],
+      "claim_ids": [
+        "claim-60"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "nct": "NCT01311518"
+    },
+    {
+      "citation": 23,
+      "reference_id": "ref23",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "ClinicalTrials.gov. Full-length thymosin-beta-4 in epidermolysis bullosa; terminated with registry results. NCT00311766 ."
+      ],
+      "claim_ids": [
+        "claim-60"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "nct": "NCT00311766"
+    },
+    {
+      "citation": 24,
+      "reference_id": "ref24",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "ClinicalTrials.gov. Full-length thymosin-beta-4 for corneal wounds; terminated with registry results. NCT00598871 ."
+      ],
+      "claim_ids": [
+        "claim-60"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "nct": "NCT00598871"
+    },
+    {
+      "citation": 25,
+      "reference_id": "ref25",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "ClinicalTrials.gov. RGN-259 for neurotrophic keratopathy; terminated for a business decision with registry results. NCT02600429 ."
+      ],
+      "claim_ids": [
+        "claim-60"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "nct": "NCT02600429"
+    },
+    {
+      "citation": 26,
+      "reference_id": "ref26",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "ClinicalTrials.gov. RGN-137 for epidermolysis bullosa; terminated for a business decision without posted results. NCT03578029 ."
+      ],
+      "claim_ids": [
+        "claim-60"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "nct": "NCT03578029"
+    },
+    {
+      "citation": 27,
+      "reference_id": "ref27",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Lee E, et al. BPC-157 in interstitial cystitis. PMID 39325560 ."
+      ],
+      "claim_ids": [
+        "claim-70"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "pmid": "39325560"
+    },
+    {
+      "citation": 28,
+      "reference_id": "ref28",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Lee E, Burgess K. IV BPC-157 safety pilot. PMID 40131143 ."
+      ],
+      "claim_ids": [
+        "claim-71"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "pmid": "40131143"
+    },
+    {
+      "citation": 29,
+      "reference_id": "ref29",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Delcourt V, et al. TB500/TB1000 and SGF1000: analysis of misbranded and adulterated drugs. PMID 36482504 . DOI: 10.1002/dta.3421."
+      ],
+      "claim_ids": [
+        "claim-75"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "doi": "10.1002/dta.3421",
+      "pmid": "36482504"
+    },
+    {
+      "citation": 30,
+      "reference_id": "ref30",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Spurney CF, et al. Full-length thymosin-beta-4 in mdx mice. PMID 20126456 . DOI: 10.1371/journal.pone.0008976."
+      ],
+      "claim_ids": [
+        "claim-77"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "doi": "10.1371/journal.pone.0008976",
+      "pmid": "20126456"
+    },
+    {
+      "citation": 31,
+      "reference_id": "ref31",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Wu S, et al. Thymosin-beta-4-loaded scaffold and tenogenic cell outcomes. PMID 31753373 . DOI: 10.1016/j.msec.2019.110268."
+      ],
+      "claim_ids": [
+        "claim-77"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "doi": "10.1016/j.msec.2019.110268",
+      "pmid": "31753373"
+    },
+    {
+      "citation": 32,
+      "reference_id": "ref32",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Cox HD, et al. Detection and in vitro metabolism of the confiscated peptides BPC 157 and MGF R23H of BPC-157 in confiscated vials. PMID 28035768 . DOI: 10.1002/dta.2152."
+      ],
+      "claim_ids": [
+        "claim-80"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "doi": "10.1002/dta.2152",
+      "pmid": "28035768"
+    },
+    {
+      "citation": 33,
+      "reference_id": "ref33",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "Mendias CL, Awan TM. Evaluation of Research Grade Peptides Marketed Directly to Consumers Reveals Extensive Variability in Purity and Measured Abundance. Preprint based on a publicly available indepen"
+      ],
+      "claim_ids": [
+        "claim-81"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "doi": "10.20944/preprints202604.1748.v1"
+    },
+    {
+      "citation": 34,
+      "reference_id": "ref34",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "openFDA. Drug-enforcement recall query for product descriptions matching BPC-157. API results ."
+      ],
+      "claim_ids": [
+        "claim-82"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "url": "https://api.fda.gov/drug/enforcement.json?search=product_description:%22BPC-157%22&amp;limit=100"
+    },
+    {
+      "citation": 35,
+      "reference_id": "ref35",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "openFDA. Drug-enforcement recall query for product descriptions matching thymosin beta 4. API results ."
+      ],
+      "claim_ids": [
+        "claim-82"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "url": "https://api.fda.gov/drug/enforcement.json?search=product_description:%22THYMOSIN%20BETA%204%22&amp;limit=100"
+    },
+    {
+      "citation": 36,
+      "reference_id": "ref36",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "openFDA. FAERS query for medicinal-product strings matching BPC-157. API results ."
+      ],
+      "claim_ids": [
+        "claim-83"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "url": "https://api.fda.gov/drug/event.json?search=patient.drug.medicinalproduct:%22BPC-157%22&amp;limit=100"
+    },
+    {
+      "citation": 37,
+      "reference_id": "ref37",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "openFDA. FAERS query for medicinal-product strings matching thymosin beta 4. API results ."
+      ],
+      "claim_ids": [
+        "claim-83"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "url": "https://api.fda.gov/drug/event.json?search=patient.drug.medicinalproduct:%22THYMOSIN%20BETA%204%22&amp;limit=100"
+    },
+    {
+      "citation": 38,
+      "reference_id": "ref38",
+      "evidence_level": "Registry record; see brief text",
+      "claims": [
+        "World Anti-Doping Agency. 2026 Prohibited List ."
+      ],
+      "claim_ids": [
+        "claim-110"
+      ],
+      "verification_note": "Transformed from source ledger; identifier check pending subagent verification.",
+      "url": "https://www.wada-ama.org/en/prohibited-list"
+    }
+  ]
+}

@@ -146,6 +146,38 @@ class VerifyBriefTests(unittest.TestCase):
         self.assertTrue(any("references-list" in error for error in errors))
         self.assertTrue(any("duplicate" in error for error in errors))
 
+    def test_accepts_nct_or_url_as_source_identifier(self):
+        verifier = load_module()
+        brief, manifest = self.make_files(
+            '<p data-claim-id="trial">Trial claim<sup><a href="#ref1">1</a></sup></p>'
+            '<p data-claim-id="patent">Patent claim<sup><a href="#ref2">2</a></sup></p>'
+            '<div class="references-list"><ol><li id="ref1">ClinicalTrials.gov. '
+            '<a href="https://clinicaltrials.gov/study/NCT07437547">NCT07437547</a></li>'
+            '<li id="ref2">US Patent 5,288,708. '
+            '<a href="https://www.freepatentsonline.com/5288708.html">Patent text</a></li></ol></div>',
+            {"sources": [
+                {"citation": 1, "reference_id": "ref1", "nct": "NCT07437547", "evidence_level": "Trial registration", "claims": ["Trial claim"], "claim_ids": ["trial"], "verification_note": "Registry checked."},
+                {"citation": 2, "reference_id": "ref2", "url": "https://www.freepatentsonline.com/5288708.html", "evidence_level": "Patent", "claims": ["Patent claim"], "claim_ids": ["patent"], "verification_note": "Patent register checked."},
+            ]},
+        )
+        errors = verifier.verify_brief(brief, manifest)
+        self.assertEqual(errors, [])
+
+    def test_rejects_duplicate_nct_identifier(self):
+        verifier = load_module()
+        brief, manifest = self.make_files(
+            '<p data-claim-id="first">First<sup><a href="#ref1">1</a></sup></p>'
+            '<p data-claim-id="second">Second<sup><a href="#ref2">2</a></sup></p>'
+            '<div class="references-list"><ol><li id="ref1">Trial NCT07437547</li>'
+            '<li id="ref2">Trial duplicate NCT07437547</li></ol></div>',
+            {"sources": [
+                {"citation": 1, "reference_id": "ref1", "nct": "NCT07437547", "evidence_level": "Trial registration", "claims": ["First"], "claim_ids": ["first"], "verification_note": "Checked."},
+                {"citation": 2, "reference_id": "ref2", "nct": "NCT07437547", "evidence_level": "Trial registration", "claims": ["Second"], "claim_ids": ["second"], "verification_note": "Checked."},
+            ]},
+        )
+        errors = verifier.verify_brief(brief, manifest)
+        self.assertTrue(any("duplicate source identifier" in error for error in errors))
+
 
 if __name__ == "__main__":
     unittest.main()
