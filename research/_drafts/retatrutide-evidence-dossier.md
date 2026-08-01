@@ -3,6 +3,7 @@
 **Working title:** *Retatrutide: The Trial Results Are Real. The Online Certainty Is Not.*
 
 **Status:** Evidence dossier — not for publication
+**Updated:** 2026-07-31 — MAJOR REVISION required (verification subagent findings; see `C:\Users\monty\verify_refs\retatrutide\RETATRUTIDE_VERIFICATION_REPORT.md`)
 
 ## Why this brief
 
@@ -40,13 +41,29 @@ Retatrutide has meaningful randomized human evidence for weight loss and glycaem
 1. Jastreboff AM et al. *N Engl J Med.* 2023. PMID: 37366315. DOI: [10.1056/NEJMoa2301972](https://doi.org/10.1056/NEJMoa2301972).
 2. Rosenstock J et al. *Lancet.* 2023. PMID: 37385280. DOI: [10.1016/S0140-6736(23)01053-X](https://doi.org/10.1016/S0140-6736(23)01053-X).
 3. TRANSCEND-T2D-1. *Lancet.* 2026. PMID: 42250575. DOI: [10.1016/S0140-6736(26)00967-0](https://doi.org/10.1016/S0140-6736(26)00967-0). NCT06354660.
-4. NCT04881760 — phase-2 obesity trial.
-5. NCT04867785 — phase-2 type 2 diabetes trial.
-6. NCT07629401 — pre-approval expanded access.
-7. NCT06383390 — TRIUMPH-Outcomes.
-8. NCT06662383 — TRIUMPH-5, head-to-head vs tirzepatide.
-9. NCT06859268 — TRIUMPH-6, maintenance study.
-10. NCT07357415 — TRIUMPH-9, alternative dose-escalation study.
+4. NCT04881760 — phase-2 obesity trial (COMPLETED, results posted).
+5. NCT04867785 — phase-2 type 2 diabetes trial (COMPLETED, results posted).
+6. NCT07629401 — expanded access (AVAILABLE, posted 2026-06-05).
+7. NCT06383390 — TRIUMPH-Outcomes (ACTIVE_NOT_RECRUITING, no results).
+8. NCT06662383 — TRIUMPH-5, head-to-head vs tirzepatide (ACTIVE_NOT_RECRUITING).
+9. NCT06859268 — TRIUMPH-6, maintenance study (ACTIVE_NOT_RECRUITING).
+10. NCT07357415 — TRIUMPH-9, alternative dose-escalation study (ACTIVE_NOT_RECRUITING).
+
+## 2026-07-31 verification findings (MAJOR REVISION)
+
+**All 4 existing sources VERIFIED** — every number reproduces exactly in the primary records (338 adults/−24.2% vs −2.1% at 48 wk; 281 randomised/−2.02% HbA1c/−16.94% weight; 537 randomised/−1.94% vs −0.81%/−15.3% vs −2.6% at 40 wk; DXA −23.2% fat mass vs −4.5%).
+
+**New phase-3 data exists (not peer-reviewed, not on CT.gov):**
+- TRIUMPH-1 (ADA June 6, 2026, Lilly PR): 12 mg **−28.3%** (−70.3 lb) over 80 wk; 9 mg −25.9%; 4 mg −19.0%; 65.3% of 12-mg arm reached BMI <30; knee-OA pain −73.1%; OSA events −60.6%.
+- TRIUMPH-2 (top-line July 23, 2026): 12 mg −20.8%, 9 mg −19.1%, 4 mg −12.7%, placebo −4.0% (80 wk, obesity+T2D); A1C −up to 1.6 pp; AE discontinuations up to **12% vs 4.9%**.
+- TRIUMPH-3 (top-line July 23, 2026): severe obesity + established CVD, 12 mg −22.6% vs −3.2%; improved lipids/SBP/inflammation; **no excess MACE**; AE discontinuations up to **13.5% vs 4.8%**.
+- **BLA planned Q1 2027** (pushed from 2026; CMC/data-validation delay). Not submitted as of 07-31.
+
+**CRITICAL — 4 wrong NCTs in the draft:** draft's TRIUMPH-1/2/3/4 NCT numbers resolve to unrelated trials. Correct: TRIUMPH-1 = NCT05929066 (COMPLETED 2026-04-06), TRIUMPH-2 = NCT05929079 (COMPLETED 2026-06-16), TRIUMPH-3 = NCT05882045 (COMPLETED 2026-04-16), TRIUMPH-4 = NCT05931367 (COMPLETED 2025-11-14). **All four haveResults:false** — complete trials with results nowhere posted (published only as conference/press data). This is the strongest "results real, certainty not" data point in the brief.
+
+**Other new items:** GenoGenix Class II recall D-0093-2026 of unapproved "Retatrutide for Injection" vials (lack of sterility assurance, 2025-07-30) — supports the unapproved-market claims; Koufakis et al. *Eur J Intern Med* 2026-07-23 UTI-signal commentary; FDA Drugs@FDA blocked (honest gap); microdosing still 0 PubMed hits; no adolescent trial results.
+
+**Claims needing rewrite:** "phase-3 results not yet available" → conference/press data exist but unpeer-reviewed and absent from CT.gov; phase-2 −24.2% no longer the "highest seen" (−28.3% at 80 wk); AE-discontinuation context (2–5% → up to 12–13.5%); heart-rate/MACE context; registry table; approval timeline (Q1 2027 BLA, not 2026).
 
 ## Next research steps
 
