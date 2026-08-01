@@ -1,4 +1,18 @@
-<!DOCTYPE html>
+"""Build the revised Retatrutide brief (verifier-compliant, total-evidence format).
+
+Rebuilds from the July 19 draft with 2026-07-31 verification findings:
+- 4 original sources VERIFIED unchanged
+- TRIUMPH-1/2/3 phase-3 data added (conference/press, not peer-reviewed)
+- 4 wrong NCTs corrected (TRIUMPH-1=05929066, 2=05929079, 3=05882045, 4=05931367)
+- BLA Q1 2027 (not 2026); expanded access NCT07629401; GenoGenix recall D-0093-2026
+- Koufakis 2026 UTI-signal commentary (PMID 42493254)
+- Evidence badge: Moderate confidence (short-term adult trial results)
+"""
+from pathlib import Path
+
+OUT = Path(r"C:\Users\monty\eos-research\research\_drafts\retatrutide-evidence.html")
+
+HTML = """<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -276,3 +290,7 @@
 
   <p class="brief-footer">— EOS Research · Look closer. Claim less.</p>
 </main></body></html>
+"""
+
+OUT.write_text(HTML, encoding="utf-8")
+print(f"Written: {OUT} ({len(HTML)} chars)")
