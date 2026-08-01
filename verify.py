@@ -26,6 +26,7 @@ PAGES = [
     ("bpc-brief", f"{BASE_URL}/research/bpc-157-evidence.html"),
     ("cosmos-brief", f"{BASE_URL}/research/cosmos-multivitamin-evidence.html"),
     ("wolverine-brief", f"{BASE_URL}/research/wolverine-stack-bpc-tb500-evidence.html"),
+    ("retatrutide-brief", f"{BASE_URL}/research/retatrutide-evidence.html"),
     ("methodology", f"{BASE_URL}/methodology/"),
 ]
 

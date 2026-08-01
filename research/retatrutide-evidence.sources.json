@@ -1,0 +1,183 @@
+{
+  "brief": "Retatrutide: The Trial Results Are Real. The Online Certainty Is Not.",
+  "status": "draft-source-registry",
+  "verified_on": "2026-07-31",
+  "method": "Live PubMed E-utilities, Crossref, ClinicalTrials.gov v2, openFDA, and sponsor investor-newsroom verification on 2026-07-31 by an independent subagent plus direct re-checks. Conference/press-release items are labeled as such and are not treated as peer-reviewed publications.",
+  "sources": [
+    {
+      "citation": 1,
+      "reference_id": "ref1",
+      "doi": "10.1056/NEJMoa2301972",
+      "pmid": "37366315",
+      "evidence_level": "Phase 2 randomized, double-blind, placebo-controlled adult obesity trial",
+      "claim_ids": ["phase2-obesity", "triple-agonist", "microdosing"],
+      "claims": ["338 adults", "48-week body-weight change -24.2% at 12 mg vs -2.1% placebo", "dose-related GI adverse events", "dose-dependent heart-rate increase peaking week 24", "trials test the molecule, not individual receptor contributions", "trial titration is not evidence for informal microdosing"],
+      "verification_note": "Re-verified 2026-07-31: title, authors, journal, year, and all numbers reproduce exactly in PubMed/Crossref records."
+    },
+    {
+      "citation": 2,
+      "reference_id": "ref2",
+      "doi": "10.1016/S0140-6736(23)01053-X",
+      "pmid": "37385280",
+      "evidence_level": "Phase 2 randomized, double-blind, placebo- and active-controlled adult type-2-diabetes trial",
+      "claim_ids": ["phase2-t2d", "triple-agonist"],
+      "claims": ["281 randomised", "HbA1c change -2.02 pp at week 24 (12-mg escalation)", "body-weight change -16.94% at week 36", "no severe hypoglycaemia or deaths"],
+      "verification_note": "Re-verified 2026-07-31: all numbers reproduce exactly."
+    },
+    {
+      "citation": 3,
+      "reference_id": "ref3",
+      "doi": "10.1016/S0140-6736(26)00967-0",
+      "pmid": "42250575",
+      "evidence_level": "Phase 3 randomized, double-blind, placebo-controlled adult type-2-diabetes monotherapy trial",
+      "claim_ids": ["phase3-t2d"],
+      "claims": ["537 randomised adults", "40-week HbA1c change -1.94 pp at 12 mg vs -0.81 pp placebo", "body-weight change -15.3% vs -2.6%", "AE discontinuations 2-5% vs 0% placebo", "GI events most frequent, generally mild-to-moderate"],
+      "verification_note": "Re-verified 2026-07-31. Lancet 2026;407:2402-2413. Treatment-regimen estimand; 2 deaths in 4-mg arm deemed unrelated."
+    },
+    {
+      "citation": 4,
+      "reference_id": "ref4",
+      "doi": "10.1016/S2213-8587(25)00092-0",
+      "pmid": "40609566",
+      "evidence_level": "Prespecified DXA substudy of a phase 2 randomized adult type-2-diabetes trial",
+      "claim_ids": ["body-composition"],
+      "claims": ["total fat-mass -23.2% (12 mg) vs -4.5% placebo at week 36", "lean-mass-loss proportion similar to other obesity treatments", "does not show lean mass preserved or muscle questions solved"],
+      "verification_note": "Re-verified 2026-07-31. n=189; 103 with paired scans."
+    },
+    {
+      "citation": 5,
+      "reference_id": "ref5",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss",
+      "evidence_level": "Phase 3 conference/press-release disclosure (ADA Scientific Sessions, 6 June 2026); not peer-reviewed, not posted to ClinicalTrials.gov",
+      "claim_ids": ["triumph1"],
+      "claims": ["80-week mean weight change -28.3% (-70.3 lb) at 12 mg", "-25.9% at 9 mg", "-19.0% at 4 mg", "65.3% of 12-mg group reached BMI <30", "knee-OA pain and sleep-apnea event reductions reported"],
+      "verification_note": "URL verified via investor.lilly.com newsroom search; trial NCT05929066 COMPLETED 2026-04-06, hasResults=false. Labeled conference/press disclosure, not peer-reviewed."
+    },
+    {
+      "citation": 6,
+      "reference_id": "ref6",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-successful-two-additional",
+      "evidence_level": "Phase 3 top-line press-release disclosures (23 July 2026); not peer-reviewed, not posted to ClinicalTrials.gov",
+      "claim_ids": ["triumph23"],
+      "claims": ["TRIUMPH-2: -20.8% at 12 mg vs -4.0% placebo (80 wk, obesity+T2D)", "TRIUMPH-3: -22.6% at 12 mg vs -3.2% placebo (severe obesity+CVD)", "no excess MACE in TRIUMPH-3", "AE discontinuations 12-13.5% vs 4.8-4.9% placebo"],
+      "verification_note": "URL verified via investor.lilly.com; TRIUMPH-2 NCT05929079 COMPLETED 2026-06-16, TRIUMPH-3 NCT05882045 COMPLETED 2026-04-16, both hasResults=false."
+    },
+    {
+      "citation": 7,
+      "reference_id": "ref7",
+      "nct": "NCT05929066",
+      "evidence_level": "Trial registration (phase 3 obesity)",
+      "claim_ids": ["registry-gap"],
+      "claims": ["COMPLETED status", "no results posted (hasResults=false)"],
+      "verification_note": "Verified via ClinicalTrials.gov v2 on 2026-07-31."
+    },
+    {
+      "citation": 8,
+      "reference_id": "ref8",
+      "nct": "NCT05929079",
+      "evidence_level": "Trial registration (phase 3 obesity + T2D)",
+      "claim_ids": ["registry-gap"],
+      "claims": ["COMPLETED status", "no results posted (hasResults=false)"],
+      "verification_note": "Verified via ClinicalTrials.gov v2 on 2026-07-31."
+    },
+    {
+      "citation": 9,
+      "reference_id": "ref9",
+      "nct": "NCT05882045",
+      "evidence_level": "Trial registration (phase 3 severe obesity + CVD)",
+      "claim_ids": ["registry-gap"],
+      "claims": ["COMPLETED status", "no results posted (hasResults=false)"],
+      "verification_note": "Verified via ClinicalTrials.gov v2 on 2026-07-31."
+    },
+    {
+      "citation": 10,
+      "reference_id": "ref10",
+      "nct": "NCT05931367",
+      "evidence_level": "Trial registration (phase 3 knee osteoarthritis)",
+      "claim_ids": ["registry-gap"],
+      "claims": ["COMPLETED status", "no results posted (hasResults=false)"],
+      "verification_note": "Verified via ClinicalTrials.gov v2 on 2026-07-31."
+    },
+    {
+      "citation": 11,
+      "reference_id": "ref11",
+      "nct": "NCT06354660",
+      "evidence_level": "Trial registration (TRANSCEND-T2D-1)",
+      "claim_ids": ["registry-gap"],
+      "claims": ["COMPLETED status", "results published in Lancet but not posted to registry (hasResults=false)"],
+      "verification_note": "Verified via ClinicalTrials.gov v2 on 2026-07-31."
+    },
+    {
+      "citation": 12,
+      "reference_id": "ref12",
+      "nct": "NCT06383390",
+      "evidence_level": "Trial registration (TRIUMPH-Outcomes cardiovascular)",
+      "claim_ids": ["outcomes-gap"],
+      "claims": ["ACTIVE_NOT_RECRUITING", "completion expected 2029", "no results"],
+      "verification_note": "Verified via ClinicalTrials.gov v2 on 2026-07-31."
+    },
+    {
+      "citation": 13,
+      "reference_id": "ref13",
+      "nct": "NCT06662383",
+      "evidence_level": "Trial registration (TRIUMPH-5 head-to-head vs tirzepatide)",
+      "claim_ids": ["outcomes-gap"],
+      "claims": ["ACTIVE_NOT_RECRUITING", "no results"],
+      "verification_note": "Verified via ClinicalTrials.gov v2 on 2026-07-31."
+    },
+    {
+      "citation": 14,
+      "reference_id": "ref14",
+      "nct": "NCT06859268",
+      "evidence_level": "Trial registrations (TRIUMPH-6 maintenance; NCT07357415 TRIUMPH-9 dose escalation)",
+      "claim_ids": ["outcomes-gap"],
+      "claims": ["ACTIVE_NOT_RECRUITING", "no results"],
+      "verification_note": "Verified via ClinicalTrials.gov v2 on 2026-07-31. Reference entry covers both NCTs."
+    },
+    {
+      "citation": 15,
+      "reference_id": "ref15",
+      "url": "https://investor.lilly.com/news-releases",
+      "evidence_level": "Sponsor regulatory-timeline disclosure",
+      "claim_ids": ["regulatory"],
+      "claims": ["BLA filing planned Q1 2027", "pushed from 2026 target", "attributed to chemistry/manufacturing data validation", "not submitted as of 2026-07-31"],
+      "verification_note": "Verified via Lilly investor newsroom and Q2-2026 earnings disclosure; BLA planned Q1 2027."
+    },
+    {
+      "citation": 16,
+      "reference_id": "ref16",
+      "nct": "NCT07629401",
+      "evidence_level": "Expanded-access registration",
+      "claim_ids": ["regulatory"],
+      "claims": ["AVAILABLE status", "posted 5 June 2026", "pre-approval expanded access of LY3437943"],
+      "verification_note": "Verified via ClinicalTrials.gov v2 on 2026-07-31."
+    },
+    {
+      "citation": 17,
+      "reference_id": "ref17",
+      "url": "https://clinicaltrials.gov/search?intr=retatrutide",
+      "evidence_level": "Registry search (negative claim)",
+      "claim_ids": ["adolescents"],
+      "claims": ["no adolescent retatrutide trial results identified", "late-stage trials located enrolled adults"],
+      "verification_note": "ClinicalTrials.gov retatrutide records checked 2026-07-31; no adolescent phase-3 results. Media reports of minors using unapproved product are reports of an unapproved market, not trial evidence."
+    },
+    {
+      "citation": 18,
+      "reference_id": "ref18",
+      "url": "https://api.fda.gov/drug/enforcement.json?search=retatrutide",
+      "evidence_level": "FDA enforcement record (openFDA)",
+      "claim_ids": ["recall"],
+      "claims": ["Class II recall D-0093-2026", "GenoGenix LLC 'Retatrutide for Injection 60 mg/10 mL'", "lack of sterility assurance", "initiated 30 July 2025", "ongoing, US nationwide"],
+      "verification_note": "Verified via openFDA enforcement API on 2026-07-31."
+    },
+    {
+      "citation": 19,
+      "reference_id": "ref19",
+      "pmid": "42493254",
+      "evidence_level": "Peer-reviewed safety commentary (letter/viewpoint), not a trial",
+      "claim_ids": ["uti-signal"],
+      "claims": ["urinary-tract infection signal raised", "timing-of-onset question posed", "signal and research question, not established causal finding"],
+      "verification_note": "Verified via PubMed E-utilities on 2026-07-31. Eur J Intern Med, 2026 Jul 23."
+    }
+  ]
+}
